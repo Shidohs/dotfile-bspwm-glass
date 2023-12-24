@@ -1,0 +1,25 @@
+# Configuración de la barra
+bar {
+    status_command          i3blocks
+    i3bar_command i3bar --transparency
+    bindsym button4         nop
+    bindsym button5         nop
+    position                top
+    tray_output             primary
+    separator_symbol        "·"
+    workspace_buttons       yes
+    strip_workspace_numbers yes
+
+
+    colors {
+        background  #00000000 
+        statusline  #dddddd
+        separator   #666666
+        # class             border  backgr. text
+        focused_workspace   #0B0B0B00 #00000000 #ffffff
+        active_workspace    #00000000 #00000000 #ffffff
+        inactive_workspace  #00000000 #00000000 #86888c
+        urgent_workspace    #00000000 #00000000 #ffffff
+        binding_mode        #00000000 #00000000 #ffffff
+    }
+}
