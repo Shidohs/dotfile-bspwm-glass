@@ -1,0 +1,65 @@
+# cambiar wallpaper
+bindsym $mod+Shift+w exec --no-startup-id feh -z --no-fehbg --bg-fill ~/Imágenes/Wallpaper/ &
+# switching window with win+tab
+bindsym $mod+Tab exec --no-startup-id rofi -show window
+
+# Recargar el archivo de configuración
+bindsym $mod+Shift+c reload
+
+# Reiniciar i3 en su lugar (conserva tu diseño/sesión, se puede usar para actualizar i3)
+bindsym $mod+Shift+r restart
+
+# Salir de i3 (cerrar sesión en tu sesión X)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Presionaste el atajo de salida. ¿Realmente quieres salir de i3? Esto cerrará tu sesión X.' -b 'Sí, salir de i3' 'i3-msg exit'"
+
+# Configurar funciones de apagado, reinicio y bloqueo
+bindsym $mod+0 mode "$mode_system"
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # salir del modo sistema: "Enter" o "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# Redimensionar ventana (también puedes usar el ratón para eso)
+bindsym $mod+r mode "resize"
+mode "resize" {
+        # Estos comandos se activan tan pronto como entras en el modo de redimensionamiento
+        # Presionar izquierda reducirá el ancho de la ventana.
+        # Presionar derecha aumentará el ancho de la ventana.
+        # Presionar arriba reducirá la altura de la ventana.
+        # Presionar abajo aumentará la altura de la ventana.
+        bindsym j resize shrink width 5 px or 5 ppt
+        bindsym k resize grow height 5 px or 5 ppt
+        bindsym l resize shrink height 5 px or 5 ppt
+        bindsym odiaeresis resize grow width 5 px or 5 ppt
+
+        # mismos comandos, pero para las teclas de flecha
+        bindsym Left resize shrink width 8 px or 8 ppt
+        bindsym Down resize grow height 8 px or 8 ppt
+        bindsym Up resize shrink height 8 px or 8 ppt
+        bindsym Right resize grow width 8 px or 8 ppt
+
+        # salir del modo de redimensionamiento: Enter o Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+# Bloquear pantalla
+bindsym $mod+9 exec --no-startup-id blurlock
+
+# Controles de audio de PulseAudio
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% # Aumentar
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% # Disminuir
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # Silenciar
+
+# Configurar capturas de pantalla y capturas de pantalla parciales
+bindsym --release Print exec maim -u ~/images/scrots/`date +%Y-%m-%d_%H:%M:%S`.png
+bindsym --release Shift+Print exec maim -u -s ~/images/scrots/`date +%Y-%m-%d_%H:%M:%S`.png

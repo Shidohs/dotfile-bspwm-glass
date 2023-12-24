@@ -1,0 +1,209 @@
+00:00:01.201 [ERROR] [sway/config/output.c:817] execvp failed: No such file or directory
+00:00:01.969 [ERROR] [wlr] [xwayland/sockets.c:63] Failed to bind socket @/tmp/.X11-unix/X0: Address already in use
+Environment variable $XDG_CURRENT_DESKTOP not set, ignoring.
+[352 15:38:23.591022] Ignoring unknown config key: border_radius
+[352 15:38:23.591560] Ignoring unknown config key: columns
+[352 15:38:23.592356] Ignoring unknown config key: format
+[352 15:38:23.593604] Ignoring unknown config key: kitty
+[352 15:38:25.461396] Ignoring unknown config key: border_radius
+[352 15:38:25.461483] Ignoring unknown config key: columns
+[352 15:38:25.461816] Ignoring unknown config key: format
+[352 15:38:25.462381] Ignoring unknown config key: kitty
+[352 15:38:25.670394] Ignoring unknown config key: border_radius
+[352 15:38:25.670487] Ignoring unknown config key: columns
+[352 15:38:25.670886] Ignoring unknown config key: format
+[352 15:38:25.671468] Ignoring unknown config key: kitty
+[352 15:38:25.869454] Ignoring unknown config key: border_radius
+[352 15:38:25.869544] Ignoring unknown config key: columns
+[352 15:38:25.869922] Ignoring unknown config key: format
+[352 15:38:25.870489] Ignoring unknown config key: kitty
+[352 15:38:26.000378] Ignoring unknown config key: border_radius
+[352 15:38:26.000471] Ignoring unknown config key: columns
+[352 15:38:26.000872] Ignoring unknown config key: format
+[352 15:38:26.001453] Ignoring unknown config key: kitty
+00:00:13.270 [ERROR] [wlr] [libinput] client bug: timer event6 middlebutton: scheduled expiry is in the past (-563ms), your system is too slow
+
+00:00:18.920 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:19.540 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:22.145 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:34.554 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+00:00:52.371 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:54.197 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:54.315 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:54.868 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:54.952 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:58.170 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:59.058 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:59.242 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:00:59.393 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:04.572 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:04.890 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:04.906 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:05.426 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:05.828 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:05.929 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:06.565 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:07.252 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:07.437 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:09.632 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:10.636 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:10.637 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+warning: queue 0x56048cb77cb0 destroyed while proxies still attached:
+  wl_display@1 still attached
+warning: queue 0x55d2bcf69240 destroyed while proxies still attached:
+  wl_display@1 still attached
+warning: queue 0x55bf35782500 destroyed while proxies still attached:
+  wl_display@1 still attached
+warning: queue 0x56042a2e7c30 destroyed while proxies still attached:
+  wl_display@1 still attached
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+00:01:21.559 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:21.894 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:25.211 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+warning: queue 0x55f285d40630 destroyed while proxies still attached:
+  wl_display@1 still attached
+[352 15:39:43.504077] Ignoring unknown config key: border_radius
+[352 15:39:43.504193] Ignoring unknown config key: columns
+[352 15:39:43.504506] Ignoring unknown config key: format
+[352 15:39:43.505063] Ignoring unknown config key: kitty
+00:01:33.066 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:38.560 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:39.699 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:40.939 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:41.357 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:41.977 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:42.295 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:43.250 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:43.284 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:43.334 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:44.322 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:49.330 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:49.548 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:51.155 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:52.261 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:54.422 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:54.556 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:54.891 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:57.369 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:58.204 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:01:59.023 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:01.267 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:02.217 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:03.537 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:03.622 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:06.544 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:06.577 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:06.695 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:08.263 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:08.363 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:09.273 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:09.374 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:09.441 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:11.174 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:11.595 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:11.914 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:11.948 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:11.998 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:12.015 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:12.536 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:12.603 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:16.047 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:16.601 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:18.565 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:20.562 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:22.576 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:24.588 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:26.601 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:28.412 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:31.513 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:31.814 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:32.568 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:33.740 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:34.980 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:36.236 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:36.537 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:38.531 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:38.883 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+00:02:39.235 [ERROR] [wlr] [backend/drm/atomic.c:72] connector LVDS-1: Atomic commit failed: Device or resource busy
+(EE) failed to read Wayland events: Broken pipe
+warning: queue 0x555a73dcf590 destroyed while proxies still attached:
+  wl_display@1 still attached

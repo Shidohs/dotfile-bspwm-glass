@@ -1,0 +1,49 @@
+#! /bin/sh
+
+## GENERAL ##
+# THEME #
+read -r RICETHEME < "$HOME"/.config/bspwm/.rice
+export RICETHEME
+rice_dir="$HOME/.config/bspwm/polybar/themes/$RICETHEME"
+PATH="$HOME/.config/bspwm/scripts:$PATH"
+
+# IMPORT #
+source "$HOME/.config/bspwm/modules/rules.conf"
+source "$HOME/.config/bspwm/modules/autostart.conf"
+
+
+
+## Fix java applications
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+bspc config border_width                         2
+bspc config window_gap                          12
+bspc config split_ratio                               0.52
+bspc config borderless_monocle             true
+bspc config gapless_monocle                   true
+bspc config focus_follows_pointer true
+
+
+#  ╦ ╦╔═╗╦═╗╦╔═╔═╗╔═╗╔═╗╔═╗╔═╗╔═╗
+#  ║║║║ ║╠╦╝╠╩╗╚═╗╠═╝╠═╣║  ║╣ ╚═╗
+#  ╚╩╝╚═╝╩╚═╩ ╩╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
+# Restablecer los escritorios y la ventana seleccionada al inicio
+# bspc wm -d "Terminal" "Browser" "Code" "File" "Random"
+
+	# Default 1 monitor with 6 workspaces
+	for monitor in "$(xrandr -q | grep -w 'connected' | cut -d' ' -f1)"; do
+		bspc monitor "$monitor" -d '1' '2' '3' '4' '5' '6'
+		#bspc monitor "$monitor" -d '' '' '' '' '' ''
+	done
+
+	## For two or three monitors configuration see https://github.com/gh0stzk/dotfiles/wiki/Two-or-more-monitors-setup
+
+
+# Load bspwm conf, colors, dunst, bars and/or eww widgets
+. ${rice_dir}/Theme.sh
+
+# Fix cursor
+xsetroot -cursor_name left_ptr
+
+
+

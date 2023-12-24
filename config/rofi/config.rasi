@@ -1,0 +1,8 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "candy-icons";
+}
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+@theme "/home/shidox/.local/share/rofi/themes/launchpad.rasi"
