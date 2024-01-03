@@ -1,6 +1,6 @@
 # Configuración de la barra
 bar {
-    status_command          i3blocks
+    status_command          dzen2
     i3bar_command i3bar --transparency
     bindsym button4         nop
     bindsym button5         nop

@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+
+DIR="$HOME/.config/bspwm/assets"
+
+VOLUME_STEPS=5
+
+function get_volume {
+  pactl list sinks | grep -A 15 '^[[:space:]]Volume:' | grep -Po '(\d+)%' | head -n 1
+}
+
+function get_volume_icon {
+  volume=$(get_volume | tr -d '%')
+
+  # Definir umbrales para los niveles de volumen
+  low_threshold=20
+  mute_threshold=0
+  media_threshold=50
+  high_threshold=80
+
+  if [ "$volume" -eq "$mute_threshold" ]; then
+    echo "$DIR/mute.svg"
+  elif [ "$volume" -lt "$low_threshold" ]; then
+    echo "$DIR/low_volume.svg"
+  elif [ "$volume" -lt "$media_threshold" ]; then
+    echo "$DIR/medium_volume.svg"
+  elif [ "$volume" -lt "$high_threshold" ]; then
+    echo "$DIR/high_volume.svg"
+  else
+    echo "$DIR/high_volume.svg"
+  fi
+}
+
+function send_notification {
+  volume=$(get_volume)
+  icon=$(get_volume_icon $volume)
+
+  # Generar una barra de progreso con bloques de 5%
+  progress_bar=$(printf '▉%.0s' $(seq 1 $((volume / 5))))
+
+  # Configurar la notificación con barra de progreso
+  dunstify \
+    -i $icon \
+    -r 5555 \
+    -u normal \
+    -h string:x-dunst-stack-tag:volume_notification \
+    "Volumen" \
+    -h string:synchronous:volume_notification \
+    -h string:x-dunst-stack-tag:volume_notification \
+    -h string:x-dunst-stack-tag:volume_notification \
+    -h string:percentage:"$progress_bar" \
+    -h int:value:$volume
+}
+
+
+
+case $1 in
+RaiseVolume)
+  # Aumentar volumen 5%
+  pactl set-sink-volume @DEFAULT_SINK@ +${VOLUME_STEPS}%
+  send_notification
+  ;;
+
+LowerVolume)
+  # Reducir volumen 5%
+  pactl set-sink-volume @DEFAULT_SINK@ -${VOLUME_STEPS}%
+  send_notification
+  ;;
+  
+Mute)
+  # Alternar mute
+  pactl set-sink-mute @DEFAULT_SINK@ toggle
+  send_notification
+  ;;
+esac

@@ -1,17 +1,28 @@
+##############################################
+# Lanzadores de aplicaciones
+##############################################
 
-# Open Terminal (alacritty)
-super + Return
+# Terminal
+super + Return  
     kitty
-	
 
-# Menu aplicaciones
-super + @space
+# Menú de aplicaciones
+super + d
     rofi -show drun
+# jgmenu
+~button3
 
+##############################################
+# Gestión de energía  
+##############################################
 
-# Power off, Reboot, Log out, Lockscreen, kill an app
-ctrl + super + alt + {p,r,q,l,k}
-	{systemctl poweroff, systemctl reboot,bspc quit,physlock -d,xkill}
+# Apagar, reiniciar, cerrar sesión, bloquear, cerrar app
+ctrl + super + alt + {p,r,q,l,k}  
+    {systemctl poweroff, systemctl reboot, bspc quit, physlock -d, xkill}
+
+##############################################
+# Atajos de aplicaciones
+##############################################
 # Apps
 shift + ctrl + {b,c,n,p}
 	firefox, \
@@ -19,51 +30,62 @@ shift + ctrl + {b,c,n,p}
 	 thunar, \
 	 pavucontrol, \
 
+##############################################
+# Capturas de pantalla
+##############################################
 
-@Print
-    scrot -ozs -F /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
+# Captura completa
+Print
+    scrot -s ~/captura%Y%m%d%H%M%S.png 
+
+# Captura tras 5 segundos  
+alt + Print
+    scrot -d 5 ~/captura%Y%m%d%H%M%S.png
+
+# Captura de ventana activa
+ctrl + Print
+    scrot -u ~/captura%Y%m%d%H%M%S.png
+
+
+#@Print
+    #scrot -ozs -F /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
     #flameshot gui -p ~/Imágenes
 
-alt + @Print
-    scrot -ozd 5 /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
+#alt + @Print
+    #scrot -ozd 5 /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
     #flameshot gui -c -d 5000 -p ~/Imágenes
 
-ctrl + @Print
-    scrot -ozu /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
+#ctrl + @Print
+    #scrot -ozu /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
     #flameshot gui -p ~/Imágenes
-# Screenshot Now
-Print
-	ScreenShoTer --now
 
-# Screenshot Select
-ctrl + Print
-	ScreenShoTer --sel
+##############################################
+# Recargar Sistema
+##############################################
 
-# Screenshot in 10s
-alt + Print
-	ScreenShoTer --in10
-
-# Reload sxhkd
+# Recargar configuración
 super + Escape
-	pkill -USR1 -x sxhkd; dunstify -u low -i ~/.config/bspwm/assets/reload.svg 'sxhkd' 'The configuration file has been reloaded successfully!'
-
-#
-# bspwm hotkeys
-
-# Fondo de pantalla aleatorio
-super + alt + w
-	feh -z --no-fehbg --bg-fill ~/Imágenes/Wallpaper/
+    pkill -USR1 -x sxhkd; notify-reload
 
 # Reload BSPWM
 super + ctrl + r
 	bspc wm -r
 
 super + ctrl + p
-	polybar-msg cmd restart && pkill -USR1 picom
-
-# Cerrar y matar proceso/s
+    polybar-msg cmd restart && pkill -USR1 picom
+    # Cerrar y matar proceso/s
 super + {_,shift + }q
 	bspc node -{c,k}
+    
+##############################################
+# Fondo de pantalla aleatorio
+##############################################
+# Random wallpaper
+super + alt + w
+	WallSelect
+
+
+
 ####
 
 # rotate desktop
@@ -172,18 +194,60 @@ super + alt + shift + {h,j,k,l}
 alt + shift {Left,Down,Up,Right}
 	bspc node -v {-10 0,0 10,0 -10,10 0}
 
-# Manage brightness
+##############################################
+# Multimedia
+##############################################
+
+# Brillo
 XF86MonBrightness{Up,Down}
-    sh Brightness {up,down}
+    sh ~/.config/bspwm/scripts/brightness {up,down}
 
-# Volume control
+# Volumen
 XF86Audio{RaiseVolume,LowerVolume,Mute}
-	Volume{ --inc, --dec, --toggle}
+    sh ~/.config/bspwm/scripts/volume {RaiseVolume,LowerVolume,Mute}
 
-# Music Control
-XF86Audio{Next,Prev,Play,Stop}
-	MediaControl {--next,--previous,--toggle,--stop}
+# Reproducción multimedia 
+# Controles multimedia  
+#XF86Audio{Next,Prev,Play,Stop}
+    #MediaControl {--next,--previous,--toggle,--stop}
+XF86AudioPlay
+    playerctl play-pause
 
+XF86AudioNext
+    playerctl next 
+
+XF86AudioPrev
+    playerctl previous
+    
+##############################################  
+# Personalizados
+##############################################
+# Lanzar visor de imágenes sxiv
+super + i
+    sxiv -a
+
+# Alternar touchpad  
+super + t
+    touchpad-toggle.sh
 # lockscreen
 super + ctrl + x
     betterlockscreen -l dim
+    
+##############################################
+# Gestos touchpad
+##############################################
+
+# Desplazar entre escritorios
+WS 3 Finger_s
+WS 4 Finger_n  
+WS 2 Finger_w
+WS 1 Finger_e
+
+# Cambiar entre ventanas
+SUPER Finger1
+SUPER SHIFT Finger1
+
+# Simular botones del ratón  
+BTN_LEFT Click1
+BTN_MIDDLE Click3  
+BTN_RIGHT Click2
