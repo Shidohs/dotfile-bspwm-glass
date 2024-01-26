@@ -1,0 +1,37 @@
+# General
+alias c="clear"
+alias q="exit"
+alias hd="hexdump -C"
+alias nanosu="sudo nano"
+alias vimsu="sudo vim"
+alias nvimsu="sudo nvim"
+
+# System Maintenance
+alias pacrem="sudo pacman -Rcns"
+alias yayupd="yay -Sy"
+alias yayupg="yay -Syu"
+alias trimall="sudo fstrim -va"
+alias reflesh="sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist"
+
+# Package Management (Pacman)
+alias pcs="sudo pacman -S"
+alias pcr="sudo pacman -R"
+alias pcrs="sudo pacman -Rs"
+alias pcsyu="sudo pacman -Syu"
+alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias mantenimiento="yay -Sc && sudo pacman -Scc"
+alias purga="sudo pacman -Rns $(pacman -Qtdq) ; sudo fstrim -av"
+alias update="yay -Syu"
+alias delete="sudo pacman -Rns"
+
+# Shortcuts
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="thunar ~/.oh-my-zsh"
+
+# LS Aliases
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias lla='lsd -lha --group-dirs=first'
+alias ls='lsd --group-dirs=first'
+alias cat='bat'
