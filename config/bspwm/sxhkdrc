@@ -1,189 +1,237 @@
+##############################################
+# Lanzadores de aplicaciones
+##############################################
 
-# Open Terminal (alacritty)
-super + Return
+# Terminal
+super + Return  
     kitty
-	
 
-# Menu aplicaciones
-super + @space
-    rofi -show drun
-
-
-# Power off, Reboot, Log out, Lockscreen, kill an app
-ctrl + super + alt + {p,r,q,l,k}
-	{systemctl poweroff, systemctl reboot,bspc quit,physlock -d,xkill}
-# Apps
-shift + ctrl + {b,c,n,p}
-	firefox, \
-	 code, \
-	 thunar, \
-	 pavucontrol, \
+# Menú de aplicaciones
+super + d
+    rofi -theme ~/.config/rofi/launchers/type-3/style-3.rasi -show drun
 
 
-@Print
-    scrot -ozs -F /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
-    #flameshot gui -p ~/Imágenes
+# Ejecutar jgmenu al hacer clic derecho solo si se hace clic sobre el escritorio
+alt + button3
+    bspc query -N -n focused.tiled.window >/dev/null || jgmenu --csv-file=~/.config/bspwm/scripts/menu.txt --config-file=~/.config/bspwm/jgmenurc
 
-alt + @Print
-    scrot -ozd 5 /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
-    #flameshot gui -c -d 5000 -p ~/Imágenes
+alt + Tab
+    sh $HOME/.config/bspwm/rofi/bin/windows
 
-ctrl + @Print
-    scrot -ozu /home/shidox/Imágenes/%Y%m%dT%H%M%S.png
-    #flameshot gui -p ~/Imágenes
-# Screenshot Now
+##############################################
+# Gestión de energía  
+##############################################
+
+# Apagar, reiniciar, cerrar sesión, bloquear, cerrar app
+ctrl + super + alt + {p,r,q,l,k}  
+    {systemctl poweroff, systemctl reboot, bspc quit, physlock -d, xkill}
+
+
+##############################################
+# Atajos de aplicaciones
+##############################################
+
+
+
+##############################################
+# Capturas de pantalla
+##############################################
+
+# Captura completa
 Print
-	ScreenShoTer --now
+    scrot -s ~/captura%Y%m%d%H%M%S.png 
 
-# Screenshot Select
-ctrl + Print
-	ScreenShoTer --sel
-
-# Screenshot in 10s
+# Captura tras 5 segundos  
 alt + Print
-	ScreenShoTer --in10
+    scrot -d 5 ~/captura%Y%m%d%H%M%S.png
 
-# Reload sxhkd
+# Captura de ventana activa
+ctrl + Print
+    scrot -u ~/captura%Y%m%d%H%M%S.png
+
+
+##############################################
+# Recargar Sistema
+##############################################
+
+# Recargar configuración
 super + Escape
-	pkill -USR1 -x sxhkd; dunstify -u low -i ~/.config/bspwm/assets/reload.svg 'sxhkd' 'The configuration file has been reloaded successfully!'
+    pkill -USR1 -x sxhkd; notify-reload
 
-#
-# bspwm hotkeys
-
-# Fondo de pantalla aleatorio
-super + alt + w
-	feh -z --no-fehbg --bg-fill ~/Imágenes/Wallpaper/
-
-# Reload BSPWM
 super + ctrl + r
-	bspc wm -r
+    bspc wm -r
 
 super + ctrl + p
-	polybar-msg cmd restart && pkill -USR1 picom
+    polybar-msg cmd restart && pkill -USR1 picom
 
-# Cerrar y matar proceso/s
-super + {_,shift + }q
-	bspc node -{c,k}
-####
 
-# rotate desktop
+##############################################
+# Fondo de pantalla aleatorio
+##############################################
+# Random wallpaper
+super + alt + w
+	WallSelect
+
+# He cambiado esta combinación para evitar 
+# conflictos con atajos de otras aplicaciones
+
+##############################################
+# Gestión de ventanas
+##############################################
+
+# Cerrar ventana
+super + q
+    bspc node -c
+
+# Cerrar aplicación 
+super + shift + q
+    bspc node -k
+
+# Rotar escritorio
 super + r
-	bspc node @/ --rotate {90,-90}
+    bspc node @/ --rotate 90
 
-# Circulate the leaves of the tree
-super + c
-	bspc node @/ --circulate {backward,forward}
+# Rotar ventanas
+super + ctrl + r  
+    bspc node @/ --circulate forward
 
-# Make split ratios equal
-super + equal
-	bspc node @/ --equalize
-
-# Make split ratios balanced
-super + minus
-	bspc node @/ --balance
-
-# alternate between the tiled and monocle layout
+# Cambiar layout   
 super + m
-	bspc desktop -l next
+    bspc desktop -l next  
 
-# swap the current node and the biggest node
+# Intercambiar ventanas
 super + g
-	bspc node -s biggest
+    bspc node -s biggest
 
-# set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+# Estado de la ventana
+super + {t,shift + t,s}
+    bspc node -t {tiled,pseudo_tiled,floating}
 
-# set the node flags
-ctrl + alt {m,x,s,p,i}
-	bspc node -g {marked,locked,sticky,private,hidden}
+# Ajustes de nodo
+ctrl + alt + {m,x,s,p}
+    bspc node -g {marked,locked,sticky,private}
 
-# Focused desktop window gaps scroll
-super + button{4,5}
-	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
+# Espaciado de ventanas   
+super + {Down,Up}
+    bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5))
 
-# Global window gaps scroll
-super + alt + button{4,5}
-	bspc config window_gap $(( $(bspc config window_gap) {-,+} 5 ))
+super + shift + {Down,Up}
+    bspc config window_gap $(($(bspc config window_gap) {-,+} 5))
 
-# focus the node in the given direction
+
+##############################################
+# Enfocar ventanas
+##############################################
+
+# Enfocar dirección
 super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
+    bspc node -{f,s} {west,south,north,east}
 
-# focus the node for the given path jump
+# Enfocar ruta  
 super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
+    bspc node -f @{parent,brother,first,second}
 
-# focus the next/previous node in the current desktop
-alt + {_,shift + }Tab
-	bspc node -f {next,prev}.local
+# Enfocar anterior/siguiente
+alt + {_,shift + }Tab  
+    bspc node -f {next,prev}.local
 
-# focus the next/previous desktop in the current monitor
-super + alt + {Left,Right}
-	bspc desktop -f {prev,next}.local
+# Enfocar escritorio anterior/siguiente
+super + ctrl + {Left,Right}
+    bspc desktop -f {prev,next}.local
 
-# focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
+# Enfocar última ventana
+super + Tab
+    bspc node -f last
 
-# focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
+# Enfocar escritorio 
+super + {1-9,0}
+    bspc desktop -f '^{1-9,10}'
+
+
+##############################################
+# Preseleccionar ventana
+##############################################
+
+# Preseleccionar dirección
+super + ctrl + {Left,Down,Up,Right}
+    bspc node -p {west,south,north,east}
+
+# Preseleccionar ratio
+super + ctrl + {1-9}
+    bspc node -o 0.{1-9}
+c
+# Cancelar preselección
+super + ctrl + space
+    bspc node -p cancel
+
+
+##############################################
+# Mover/Redimensionar ventanas  
+##############################################
+
+# Expandir ventana
+super + alt + {Left,Down,Up,Right}
+    bspc node -z {right -20 0,bottom 0 20,top 0 -20, left 20 0}
+
+# Contraer ventana  
+super + alt + shift + {Left,Down,Up,Right}
+    bspc node -z {left -20 0, top 0 20, bottom 0 -20, right 20 0}
+
+# Mover ventana flotante
+alt + shift + {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#
-# preselect
-#
+##############################################
+# Multimedia
+##############################################
 
-# preselect the direction
-super + ctrl + {Left,Down,Up,Right}
-	bspc node -p {west,south,north,east}
-
-# preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-
-# cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
-
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
-#
-# move/resize
-#
-
-# expand a window by moving one of its side outward
-super + alt + {h,j,k,l}
-	bspc node -z {left -10 0,bottom 0 10,top 0 -10,right 10 0}
-
-# contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
-	bspc node -z {right -10 0,top 0 10,bottom 0 -10,left 10 0}
-
-# move a floating window
-alt + shift {Left,Down,Up,Right}
-	bspc node -v {-10 0,0 10,0 -10,10 0}
-
-# Manage brightness
+# Brillo
 XF86MonBrightness{Up,Down}
-    sh Brightness {up,down}
+    sh ~/.config/bspwm/scripts/system/brightness {up,down}
 
-# Volume control
+# Volumen
 XF86Audio{RaiseVolume,LowerVolume,Mute}
-	Volume{ --inc, --dec, --toggle}
+    sh ~/.config/bspwm/scripts/system/volume {RaiseVolume,LowerVolume}
 
-# Music Control
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Reproducción multimedia 
+# Controles multimedia  
 XF86Audio{Next,Prev,Play,Stop}
-	MediaControl {--next,--previous,--toggle,--stop}
+    MediaControl {--next,--previous,--toggle,--stop}
 
-# lockscreen
-super + ctrl + x
-    betterlockscreen -l dim
+
+##############################################  
+# Personalizados
+##############################################
+# Lanzar visor de imágenes sxiv
+super + i
+    sxiv -a
+
+# Alternar touchpad  
+#super + t
+#    touchpad-toggle.sh
+
+##############################################
+# Gestos touchpad
+##############################################
+
+# Desplazar entre escritorios
+WS 3 Finger_s
+WS 4 Finger_n  
+WS 2 Finger_w
+WS 1 Finger_e
+
+# Cambiar entre ventanas
+SUPER Finger1
+SUPER SHIFT Finger1
+
+# Simular botones del ratón  
+BTN_LEFT Click1
+BTN_MIDDLE Click3  
+BTN_RIGHT Click2

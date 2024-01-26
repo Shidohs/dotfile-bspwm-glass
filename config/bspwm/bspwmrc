@@ -1,19 +1,19 @@
 #! /bin/sh
 
-## GENERAL ##
-# THEME #
+## ----- GENERAL ----- ##
+# ----- THEME -----#
 read -r RICETHEME < "$HOME"/.config/bspwm/.rice
 export RICETHEME
 rice_dir="$HOME/.config/bspwm/polybar/themes/$RICETHEME"
 PATH="$HOME/.config/bspwm/scripts:$PATH"
 
-# IMPORT #
+# ----- IMPORT ----- #
 source "$HOME/.config/bspwm/modules/rules.conf"
 source "$HOME/.config/bspwm/modules/autostart.conf"
 
 
 
-## Fix java applications
+# Fix java applications
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 bspc config border_width                         2
@@ -44,6 +44,5 @@ bspc config focus_follows_pointer true
 
 # Fix cursor
 xsetroot -cursor_name left_ptr
-
 
 

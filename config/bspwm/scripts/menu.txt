@@ -1,0 +1,36 @@
+Terminal,OpenApps --floating,/usr/share/icons/candy-icons/apps/scalable/terminal.svg
+Web Browser,OpenApps --browser,/usr/share/icons/candy-icons/apps/scalable/firefox-default.svg
+File Manager,OpenApps --filemanager,/usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg
+
+^sep()
+
+Favorites,^checkout(favorites),/usr/share/icons/candy-icons/apps/scalable/anki.svg
+
+^sep()
+
+Widgets,^checkout(wg),/usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg
+BSPWM,^checkout(wm),/usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg
+Exit,^checkout(exit),/usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg
+
+^tag(favorites)
+Editor,OpenApps --editor,/usr/share/icons/candy-icons/apps/scalable/standard-notes.svg
+Neovim,OpenApps --nvim,nvim
+Firefox,OpenApps --browser,firefox
+Retroarch,retroarch,/usr/share/icons/candy-icons/apps/scalable/retroarch.svg
+
+^tag(wg)
+User Card,OpenApps --usercard,/usr/share/icons/candy-icons/apps/scalable/system-users.svg
+Music Player,OpenApps --player,/usr/share/icons/candy-icons/apps/scalable/musique.svg
+Power Menu,OpenApps --powermenu,/usr/share/icons/candy-icons/32x32/status/changes-allow.svg
+Calendar,OpenApps --calendar,/usr/share/icons/candy-icons/apps/scalable/office-calendar.svg
+
+^tag(wm)
+Change Theme,OpenApps --rice,/usr/share/icons/candy-icons/apps/scalable/colors.svg
+Keybinds,KeybindingsHelp,/usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg
+Restart WM,bspc wm -r,/usr/share/icons/candy-icons/apps/scalable/system-reboot.svg
+Quit,bspc quit,/usr/share/icons/candy-icons/apps/scalable/system-log-out.svg
+
+^tag(exit)
+Block computer,physlock -d,/usr/share/icons/candy-icons/32x32/status/changes-prevent.svg
+Reboot,systemctl reboot,/usr/share/icons/candy-icons/apps/scalable/system-reboot.svg
+Shutdown,systemctl poweroff,/usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg
