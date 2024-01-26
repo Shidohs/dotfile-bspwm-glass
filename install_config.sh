@@ -19,7 +19,6 @@ else
     chown -R $USER: /opt/yay 
     cd /opt/yay
     makepkg -si
-    clear
 
 fi
 
@@ -273,7 +272,8 @@ if pacman -Qq "pamac-all";then
      
 else
     echo "Tienda Aur: No Instalado"
-    sudo pacman -S pamac-all powerpill
+    yay -S pamac-all
+    sudo pacman -S powerpill
     sudo pacman -Sy --noconfirm && sudo powerpill -Su && yay -Su 
 fi
 
@@ -284,7 +284,7 @@ for font in "${terminal[@]}"; do
 done
 
 cd ~/repos
-cp -r dotfile-i3-bspwm/.fonts/ ~/
+cp -r dotfile-i3-bspwm/home/.fonts/ ~/
 
 # configurando el thema general de ldesktop
 
@@ -299,7 +299,7 @@ cp -r Wallpaper/ ~/
 
 #Config de .config
 echo "COPIANDO TODO .CONFIG"
-cp config/ ~/.config/
+cp -r config/ ~/.config
 
 
 echo "INSTALACION COMPLETADA"
