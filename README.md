@@ -26,7 +26,7 @@ chmod +x install_config.sh
 - Notify                : [dunst](https://wiki.archlinux.org/index.php/Dunst) 🔔
 - Launcher              :[rofi](https://github.com/davatorium/rofi)
 - File Manager          :[thunar](https://wiki.archlinux.org/index.php/Thunar)/[nemo](https://github.com/linuxmint/nemo)/[ranger](https://github.com/ranger/ranger) 📂 
-- Wallpaper Manager     :[feh](https://feh.finalrewind.org/)
+- Wallpaper Manager     : [feh](https://feh.finalrewind.org/)
 
 
 ## Screenshots
