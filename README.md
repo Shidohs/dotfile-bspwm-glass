@@ -27,7 +27,7 @@ chmod +x install_config.sh
 
 ## Contenido
 
-- WM                    :[bspwm](https://github.com/baskerville/bspwm)
+- WM                    : [bspwm](https://github.com/baskerville/bspwm)
 - Shell                 :[zsh](https://wiki.archlinux.org/index.php/zsh) con [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
 - Terminal              :[kitty](https://github.com/kovidgoyal/kitty) y [alacritty](https://github.com/alacritty/alacritty)
 - Panel                 : [polybar](https://github.com/polybar/polybar)
