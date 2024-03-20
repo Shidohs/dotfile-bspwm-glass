@@ -4,7 +4,7 @@
 
 # Scripts De Instalacion
 
-en este scripts se istalara automaticamente el dotfile.
+En este scripts se instalará automáticamente todo lo necesitarío para su funcionamiento, debes tomar en cuenta que esta hecho para una instalación de 0 en arch, así que cualquier configuración que tengas se puede perder.
 
 ## Instalacion
 
