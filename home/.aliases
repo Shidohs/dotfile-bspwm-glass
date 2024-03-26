@@ -29,9 +29,19 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
 
 # LS Aliases
-alias ll='lsd -lh --group-dirs=first'
-alias la='lsd -a --group-dirs=first'
-alias l='lsd --group-dirs=first'
-alias lla='lsd -lha --group-dirs=first'
-alias ls='lsd --group-dirs=first'
+
+alias ls='exa --icons --group-directories-first'
+alias l='exa -l --icons --group-directories-first'
+alias la='exa -a --icons --group-directories-first'
+alias lla='exa -la --icons --group-directories-first'
+alias lt='exa --tree --icons --group-directories-first'
+
+#alias ll='lsd -lh --group-dirs=first'
+#alias la='lsd -a --group-dirs=first'
+#alias l='lsd --group-dirs=first'
+#alias lla='lsd -lha --group-dirs=first'
+#alias ls='lsd --group-dirs=first'
 alias cat='bat'
+alias catn='/bin/cat'
+#alias catnl=''/bin/bat --paging=never"
+alias catnl='bat --paging=never'

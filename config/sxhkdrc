@@ -1,0 +1,237 @@
+##############################################
+# Lanzadores de aplicaciones
+##############################################
+
+# Terminal
+super + Return  
+    kitty
+
+# Menú de aplicaciones
+super + d
+    rofi -theme ~/.config/rofi/launchers/type-3/style-3.rasi -show drun
+
+
+# Ejecutar jgmenu al hacer clic derecho solo si se hace clic sobre el escritorio
+alt + button3
+    bspc query -N -n focused.tiled.window >/dev/null || jgmenu --csv-file=~/.config/bspwm/scripts/menu.txt --config-file=~/.config/bspwm/jgmenurc
+
+alt + Tab
+    sh $HOME/.config/bspwm/rofi/bin/windows
+
+##############################################
+# Gestión de energía  
+##############################################
+
+# Apagar, reiniciar, cerrar sesión, bloquear, cerrar app
+ctrl + super + alt + {p,r,q,l,k}  
+    {systemctl poweroff, systemctl reboot, bspc quit, physlock -d, xkill}
+
+
+##############################################
+# Atajos de aplicaciones
+##############################################
+
+
+
+##############################################
+# Capturas de pantalla
+##############################################
+
+# Captura completa
+Print
+    scrot -s ~/captura%Y%m%d%H%M%S.png 
+
+# Captura tras 5 segundos  
+alt + Print
+    scrot -d 5 ~/captura%Y%m%d%H%M%S.png
+
+# Captura de ventana activa
+ctrl + Print
+    scrot -u ~/captura%Y%m%d%H%M%S.png
+
+
+##############################################
+# Recargar Sistema
+##############################################
+
+# Recargar configuración
+super + Escape
+    pkill -USR1 -x sxhkd; notify-reload
+
+super + ctrl + r
+    bspc wm -r
+
+super + ctrl + p
+    polybar-msg cmd restart && pkill -USR1 picom
+
+
+##############################################
+# Fondo de pantalla aleatorio
+##############################################
+# Random wallpaper
+super + alt + w
+	WallSelect
+
+# He cambiado esta combinación para evitar 
+# conflictos con atajos de otras aplicaciones
+
+##############################################
+# Gestión de ventanas
+##############################################
+
+# Cerrar ventana
+super + q
+    bspc node -c
+
+# Cerrar aplicación 
+super + shift + q
+    bspc node -k
+
+# Rotar escritorio
+super + r
+    bspc node @/ --rotate 90
+
+# Rotar ventanas
+super + ctrl + r  
+    bspc node @/ --circulate forward
+
+# Cambiar layout   
+super + m
+    bspc desktop -l next  
+
+# Intercambiar ventanas
+super + g
+    bspc node -s biggest
+
+# Estado de la ventana
+super + {t,shift + t,s}
+    bspc node -t {tiled,pseudo_tiled,floating}
+
+# Ajustes de nodo
+ctrl + alt + {m,x,s,p}
+    bspc node -g {marked,locked,sticky,private}
+
+# Espaciado de ventanas   
+super + {Down,Up}
+    bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5))
+
+super + shift + {Down,Up}
+    bspc config window_gap $(($(bspc config window_gap) {-,+} 5))
+
+
+##############################################
+# Enfocar ventanas
+##############################################
+
+# Enfocar dirección
+super + {_,shift + }{Left,Down,Up,Right}
+    bspc node -{f,s} {west,south,north,east}
+
+# Enfocar ruta  
+super + {p,b,comma,period}
+    bspc node -f @{parent,brother,first,second}
+
+# Enfocar anterior/siguiente
+alt + {_,shift + }Tab  
+    bspc node -f {next,prev}.local
+
+# Enfocar escritorio anterior/siguiente
+super + ctrl + {Left,Right}
+    bspc desktop -f {prev,next}.local
+
+# Enfocar última ventana
+super + Tab
+    bspc node -f last
+
+# Enfocar escritorio 
+super + {1-9,0}
+    bspc desktop -f '^{1-9,10}'
+
+
+##############################################
+# Preseleccionar ventana
+##############################################
+
+# Preseleccionar dirección
+super + ctrl + {Left,Down,Up,Right}
+    bspc node -p {west,south,north,east}
+
+# Preseleccionar ratio
+super + ctrl + {1-9}
+    bspc node -o 0.{1-9}
+c
+# Cancelar preselección
+super + ctrl + space
+    bspc node -p cancel
+
+
+##############################################
+# Mover/Redimensionar ventanas  
+##############################################
+
+# Expandir ventana
+super + alt + {Left,Down,Up,Right}
+    bspc node -z {right -20 0,bottom 0 20,top 0 -20, left 20 0}
+
+# Contraer ventana  
+super + alt + shift + {Left,Down,Up,Right}
+    bspc node -z {left -20 0, top 0 20, bottom 0 -20, right 20 0}
+
+# Mover ventana flotante
+alt + shift + {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+##############################################
+# Multimedia
+##############################################
+
+# Brillo
+XF86MonBrightness{Up,Down}
+    sh ~/.config/bspwm/scripts/system/brightness {up,down}
+
+# Volumen
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+    sh ~/.config/bspwm/scripts/system/volume {RaiseVolume,LowerVolume}
+
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Reproducción multimedia 
+# Controles multimedia  
+XF86Audio{Next,Prev,Play,Stop}
+    MediaControl {--next,--previous,--toggle,--stop}
+
+
+##############################################  
+# Personalizados
+##############################################
+# Lanzar visor de imágenes sxiv
+super + i
+    sxiv -a
+
+# Alternar touchpad  
+#super + t
+#    touchpad-toggle.sh
+
+##############################################
+# Gestos touchpad
+##############################################
+
+# Desplazar entre escritorios
+WS 3 Finger_s
+WS 4 Finger_n  
+WS 2 Finger_w
+WS 1 Finger_e
+
+# Cambiar entre ventanas
+SUPER Finger1
+SUPER SHIFT Finger1
+
+# Simular botones del ratón  
+BTN_LEFT Click1
+BTN_MIDDLE Click3  
+BTN_RIGHT Click2

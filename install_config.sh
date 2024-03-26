@@ -16,7 +16,7 @@ else
     sudo pacman -S --noconfirm base-devel zsh git
     cd /opt
     git clone https://aur.archlinux.org/yay.git /opt/yay
-    chown -R $USER: /opt/yay 
+    sudo chown -R $USER: /opt/yay 
     cd /opt/yay
     makepkg -si
 
@@ -27,7 +27,7 @@ echo 'Comprobando si existen los programas requeridos para el funcionamiento'
 
 # Lista de programas por categoría
 terminal=("alacritty" "kitty")
-code=("vscodium" "sublime-text-4" "neovim" "geany")  
+code=("vscode" "sublime-text-4" "neovim" "geany")  
 file=("thunar" "nemo")
 web=("firefox" "google-chrome")
 game=("wine" "wine-mono" "winetricks")
@@ -35,7 +35,7 @@ multimedia=("viewnior" "celluloid" "ristretto")
 otros=("picom-ftlabs-git" "zsh" "font-manager" "plocate" "bat" "betterlockscreen"  
 "blueman" "brightnessctl" "btop" "neofetch" "xclip" "curl" "python"  
 "dunst" "ffmpeg" "fzf" "glow" "gparted" "grub-customizer" "gtk" "gtk2" "gtk3"  
-"gtk4" "imagemagick" "ocs-url")
+"gtk4" "imagemagick" "ocs-url" "rsync")
 sistema=("bspwm" "acpi" "acpid" "lxappearance" "polybar" "xautolock" "sddm" "sxhkd" "tree")
 fonts=("fontdownloader" "ttf-fira-code" "ttf-firacode-nerd" "ttf-font-awesome" "ttf-jetbrains-mono-nerd" "ttf-nerd-fonts-symbols" "ttf-victor-mono-nerd" "ttf-material-design-iconic-font" "ttf-material-design-icons-desktop-git" "")
 
@@ -44,7 +44,7 @@ fonts=("fontdownloader" "ttf-fira-code" "ttf-firacode-nerd" "ttf-font-awesome" "
 # Función para instalar 
 check_and_install() {
   if ! pacman -Qq "$1" >/dev/null; then
-    if pacman -S --noconfirm "$1" >/dev/null; then
+    if sudo pacman -S --noconfirm "$1" >/dev/null; then
       echo "Instalado $1 con pacman"
     else
       echo "No se pudo instalar $1 con pacman, intentando con yay" 
@@ -54,7 +54,7 @@ check_and_install() {
 }
 
 # Comprobar programas e instalar si no existen
-for programa in "${terminal[@]}" "${code[@]}" "${file[@]}" "${accesorios[@]}" "${web[@]}" "${game[@]}" "${multimedia[@]}" "${otros[@]}" "${sistema[@]}"; do
+for programa in "${terminal[@]}" "${code[@]}" "${file[@]}" "${web[@]}" "${game[@]}" "${multimedia[@]}" "${otros[@]}" "${sistema[@]}" "${fonts[@]}"; do
   check_and_install "$programa"
 done
 # Mensaje resultado
@@ -86,6 +86,10 @@ else
     git clone https://github.com/Shidohs/dotfile-i3-bspwm.git "$dotfile_directory"
 fi
 
+echo "----- CAMBIANDO LA SHELL -----"
+
+chsh -s /bin/zsh
+
 echo "----- MODIFICANDO TERMINAL -----"
 # copiar config de zshrc
 if test -e "~/.zshrc"; then
@@ -101,32 +105,35 @@ else
 
 fi 
 cd dotfile-i3-bspwm
-
+echo "----- INSTALAND OHMYZSH -----"
 #instalar y configurar ohmyzsh
-if test -d "~/.oh-my-zsh"; then
-  echo "no instalado, comenzara a instalarse"
+if [ ! -f ~/.oh-my-zsh/oh-my-zsh.sh ]; then
+  echo "No está instalado Oh My Zsh, comenzará la instalación"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 else
-  echo "el ohmyzsh ya esta instalado"
+  echo "Oh My Zsh ya está instalado"
+fi
+
+# tema pówerlevel10k
+
+if [ ! -d "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" ]; then
+    echo "powerlevel10k no está instalado, comenzará a instalarse"
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    echo "Modificando .p10k.zsh"
+	cp ~/repos/dotfile-i3-bspwm/home/.p10k.zsh ~/
+else
+    echo "powerlevel10k está instalado"
+    echo "Modificando .p10k.zsh"
+	cp ~/repos/dotfile-i3-bspwm/home/.p10k.zsh ~/
 fi
 
 
-#instalar y copiar config de powerlevel10k 
-if test -d "~/.oh-my-zsh/custom/themes/powerlevel10k" ; then
-    echo "powerlevel10k no esta instalado,comenzara a instalarse"
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k 
-    cp ~/repos/dotfile-i3-bspwm/home/.p10k.zsh ~/
-else
-    echo "powerlevel10k esta instalado"
-    echo "modificando .p10k.zsh"
-    cp ~/repos/dotfile-i3-bspwm/home/.p10k.zsh ~/
-fi
+
 
 # hacer este proceso en root
 
 # Instalar oh-my-zsh como root
-if [ ! -d "/root/.oh-my-zsh" ]; then
+if [ ! -f "/root/.oh-my-zsh/oh-my-zsh.sh" ]; then
 
   echo "Instalando oh-my-zsh para root..."
   
@@ -145,15 +152,22 @@ if [ ! -d "/root/.oh-my-zsh/custom/themes/powerlevel10k" ]; then
   
   sudo -u root git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /root/.oh-my-zsh/custom/themes/powerlevel10k
   
-  sudo cp ~/repos/dotfile-i3-bspwm/root/.p10k.zsh /root/
+  sudo ln -s ~/p10k.zsh /root/
+
   
 else
   
   echo "powerlevel10k ya está instalado para root"
   
-  sudo cp ~/repos/dotfile-i3-bspwm/root/.p10k.zsh /root/
+  sudo ln -s ~/.p10k.zsh /root/
+
   
 fi
+
+# ROOT
+
+sudo ln -s ~/.zshrc /root/
+sudo ln -s ~/.aliases /root/
 
 #Plugins
 echo "----- INSTALANDO PLUGINS -----"
@@ -173,62 +187,52 @@ fi
 
 # configurando sddm como gestor predeterminado
 echo "----- CONFIGURANDO SDDM -----"
-
+sddm_theme_dir="$HOME/repos/dotfile-i3-bspwm/sddm-theme/themes/"
+new_theme="corners"
 #depedencia
 echo "dependencias para el tema"
-if yay -Qt "qt5-graphicaleffects" &> /dev/null && \
-    yay -Qt "qt5-svg" &> /dev/null && \
-    yay -Qt "qt5-quickcontrols2" &> /dev/null;then
-        echo "Dependecias para sddm-theme: Instalados"
+if pacman -Q "qt5-graphicaleffects" &> /dev/null && \
+    pacman -Q "qt5-svg" &> /dev/null && \
+    pacman -Q "qt5-quickcontrols2" &> /dev/null; then
+    echo "Dependencias para sddm-theme: Instalados"
 else
     sudo pacman -S --noconfirm qt5-graphicaleffects qt5-svg qt5-quickcontrols2 
-    echo "Dependecias para sddm-theme: Instalados"
+    echo "Dependencias para sddm-theme: Instalados"
 fi
 
+if ! pacman -Qq "sddm" > /dev/null; then
+    echo "sddm: no está instalado"
+    echo "Instalando SDDM"
+    sudo pacman -S --noconfirm sddm
+fi
 
-if pacman -Qq "sddm"; then
-
-  echo "sddm: ya esta instalado"
-  
-  if [ -d "/usr/share/sddm/themes" ]; then
-  
-    echo "Cargando tema"  
-    sudo cp -r ~/repos/dotfile-i3-bspwm/sddm-theme/themes/ /usr/share/sddm/themes/
-    
-    if [[ ! -f /etc/sddm.conf ]]; then
-    
-      sudo tee /etc/sddm.conf <<EOF
-
-[Theme]
-Current=corners
-EOF
-    
-    fi
-  
-  fi
-
-else
-
-  echo "Instalando SDDM"
-  sudo pacman -S  --noconfirm sddm
-  
-  if [ -d "/usr/share/sddm/themes" ]; then
-  
+if [ -d "/usr/share/sddm/themes" ]; then
     echo "Cargando tema"
-    sudo cp -r ~/repos/dotfile-i3-bspwm/sddm-theme/themes/ /usr/share/sddm/themes/
-    
-    if [[ ! -f /etc/sddm.conf ]]; then
-    
-      sudo tee /etc/sddm.conf <<EOF  
-[Theme]
-Current=corners
-EOF
-    
-    fi
-    
-  fi
+    if [ -d "$sddm_theme_dir" ]; then
+        sddm_theme_dest="/usr/share/sddm/themes/"
+        if [ ! -d "$sddm_theme_dest" ]; then
+            sudo mkdir -p "$sddm_theme_dest"
+        fi
+        sudo rsync -av "$sddm_theme_dir"/* "$sddm_theme_dest"
 
+        # Leer el archivo /etc/sddm.conf
+        if grep -q '^Current=' /etc/sddm.conf; then
+            # Reemplazar el valor de Current= con el nuevo tema
+            sudo sed -i "s/^Current=.*/Current=$new_theme/" /etc/sddm.conf
+        else
+            # Si no hay una línea Current=, agregar una nueva
+            sudo tee -a /etc/sddm.conf > /dev/null << EOF
+[Theme]
+Current=$new_theme
+EOF
+        fi
+    else
+        echo "El directorio $sddm_theme_dir no existe"
+    fi
+else
+    echo "El directorio /usr/share/sddm/themes no existe"
 fi
+
 
 # instalando el repo chaotic
 echo "----- INSTALANDO REPO CHAOTIC_EUR -----"
@@ -247,14 +251,19 @@ if ! pacman -Qq chaotic-keyring &> /dev/null; then
 fi
 
 # Configurar pacman.conf
-if ! grep -q "\[chaotic-aur\]" /etc/pacman.conf; then
 
-  # Agregar sección [chaotic-aur]
-  echo '[chaotic-aur]' | sudo tee -a /etc/pacman.conf
+if [ -f "/etc/pacman.d/chaotic-mirrorlist" ]; then
+    if ! grep -q "\[chaotic-aur\]" /etc/pacman.conf; then
 
-  # Agregar directiva Include
-  echo 'Include = /etc/pacman.d/chaotic-mirrorlist' | sudo tee -a /etc/pacman.conf
+        # Agregar sección [chaotic-aur]
+        echo '[chaotic-aur]' | sudo tee -a /etc/pacman.conf
 
+        # Agregar directiva Include
+        echo 'Include = /etc/pacman.d/chaotic-mirrorlist' | sudo tee -a /etc/pacman.conf
+
+    fi
+else
+    echo "El archivo /etc/pacman.d/chaotic-mirrorlist no existe."
 fi
 
 echo "----- INSTALANDO TIENDA DE ARCH -----"
@@ -265,15 +274,15 @@ if pacman -Qq "pamac-all";then
     if pacman -Qq "powerpill"; then
       sudo pacman -Sy --noconfirm && sudo powerpill -Su && yay -Su
     else
-      sudo pacman -S powerpill
+      yay -S --noconfirme powerpill
       sudo pacman -Sy --noconfirm && sudo powerpill -Su && yay -Su
     fi
     
      
 else
     echo "Tienda Aur: No Instalado"
-    yay -S pamac-all
-    sudo pacman -S powerpill
+    yay -S --noconfirm pamac-all
+    yay -S --noconfirm powerpill
     sudo pacman -Sy --noconfirm && sudo powerpill -Su && yay -Su 
 fi
 
@@ -282,25 +291,23 @@ echo "----- INSTALANDO FUENTES -----"
 for font in "${terminal[@]}"; do
    check_and_install "$font"
 done
+rsync -av ~/repos/dotfile-i3-bspwm/home/.fonts/ ~/
 
-cd ~/repos
-cp -r dotfile-i3-bspwm/home/.fonts/ ~/
-
-# configurando el thema general de ldesktop
+# configurando el tema general de ldesktop
 
 echo "----- CONFIGURANDO EL TEMA DE BSPWM -----"
 
-cd dotfile-i3-bspwm/
-cp -r home/ ~/
+rsync -av ~/repos/dotfile-i3-bspwm/home/ ~/ 
+rsync -av ~/repos/dotfile-i3-bspwm/home/ /root/
+
 
 # wallpaper
 echo "----- MOVIENDO WALL -----"
-cp -r Wallpaper/ ~/
+cp -r ~/repos/dotfile-i3-bspwm/Wallpaper ~/
 
 #Config de .config
 echo "COPIANDO TODO .CONFIG"
-cp -r config/ ~/.config
-
+rsync -av ~/repos/dotfile-i3-bspwm/config/ ~/.config
 
 echo "INSTALACION COMPLETADA"
 
