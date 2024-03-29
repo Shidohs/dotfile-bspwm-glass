@@ -1,53 +1,40 @@
 #!/usr/bin/env bash
 
-## Author  : Aditya Shakya (adi1090x)
+## Autor  : Aditya Shakya (adi1090x)
 ## Github  : @adi1090x
 #
-## Applets : Battery
+## Applets : Batería
 
-# Import Current Theme
+# Importar Tema Actual
 source "$HOME"/.config/rofi/applets/shared/theme.bash
 theme="$type/$style"
 
-# Battery Info
+# Información de la Batería
 battery="`acpi -b | cut -d',' -f1 | cut -d':' -f1`"
 status="`acpi -b | cut -d',' -f1 | cut -d':' -f2 | tr -d ' '`"
 percentage="`acpi -b | cut -d',' -f2 | tr -d ' ',\%`"
 time="`acpi -b | cut -d',' -f3`"
 
 if [[ -z "$time" ]]; then
-	time=' Fully Charged'
+	time=' Completamente Cargada'
 fi
 
-# Theme Elements
+# Elementos del Tema
 prompt="$status"
 mesg="${battery}: ${percentage}%,${time}"
 
-if [[ "$theme" == *'type-1'* ]]; then
-	list_col='1'
-	list_row='4'
-	win_width='400px'
-elif [[ "$theme" == *'type-3'* ]]; then
-	list_col='1'
-	list_row='4'
-	win_width='120px'
-elif [[ "$theme" == *'type-5'* ]]; then
-	list_col='1'
-	list_row='4'
-	win_width='500px'
-elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
-	list_col='4'
-	list_row='1'
-	win_width='550px'
-fi
+# Ajustes de ventana para efecto glass
+win_width='400px'
+win_radius='20px'
+win_opacity='70%' # Ajuste de opacidad para efecto glass
 
-# Charging Status
+# Estado de Carga
 active=""
 urgent=""
-if [[ $status = *"Charging"* ]]; then
+if [[ $status = *"Cargando"* ]]; then
     active="-a 1"
     ICON_CHRG=""
-elif [[ $status = *"Full"* ]]; then
+elif [[ $status = *"Completa"* ]]; then
     active="-u 1"
     ICON_CHRG=""
 else
@@ -55,26 +42,25 @@ else
     ICON_CHRG=""
 fi
 
-# Discharging
-if [[ $percentage -ge 5 ]] && [[ $percentage -le 19 ]]; then
+# Descarga
+ICON_DISCHRG="" # Icono por defecto para simplificar
+if [[ $percentage -le 20 ]]; then
     ICON_DISCHRG=""
-elif [[ $percentage -ge 20 ]] && [[ $percentage -le 39 ]]; then
+elif [[ $percentage -le 40 ]]; then
     ICON_DISCHRG=""
-elif [[ $percentage -ge 40 ]] && [[ $percentage -le 59 ]]; then
+elif [[ $percentage -le 60 ]]; then
     ICON_DISCHRG=""
-elif [[ $percentage -ge 60 ]] && [[ $percentage -le 79 ]]; then
+elif [[ $percentage -le 80 ]]; then
     ICON_DISCHRG=""
-elif [[ $percentage -ge 80 ]] && [[ $percentage -le 100 ]]; then
-    ICON_DISCHRG=""
 fi
 
-# Options
+# Opciones
 layout=`cat ${theme} | grep 'USE_ICON' | cut -d'=' -f2`
 if [[ "$layout" == 'NO' ]]; then
-	option_1=" Remaining ${percentage}%"
+	option_1=" Restante ${percentage}%"
 	option_2=" $status"
-	option_3=" Power Manager"
-	option_4=" Diagnose"
+	option_3=" Gestor de Energía"
+	option_4=" Diagnóstico"
 else
 	option_1="$ICON_DISCHRG"
 	option_2="$ICON_CHRG"
@@ -82,31 +68,29 @@ else
 	option_4=""
 fi
 
-# Rofi CMD
+# Comando Rofi
 rofi_cmd() {
-	rofi -theme-str "window {width: $win_width;}" \
-		-theme-str "listview {columns: $list_col; lines: $list_row;}" \
-		-theme-str "textbox-prompt-colon {str: \"$ICON_DISCHRG\";}" \
+	rofi -theme-str "window {width: $win_width; border-radius: $win_radius; opacity: $win_opacity;}" \
 		-dmenu \
 		-p "$prompt" \
 		-mesg "$mesg" \
 		${active} ${urgent} \
 		-markup-rows \
-		-theme ${theme}
+		-theme "${theme}"
 }
 
-# Pass variables to rofi dmenu
+# Pasar variables a rofi dmenu
 run_rofi() {
 	echo -e "$option_1\n$option_2\n$option_3\n$option_4" | rofi_cmd
 }
 
-# Execute Command
+# Ejecutar Comando
 run_cmd() {
 	polkit_cmd="pkexec env PATH=$PATH DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY"
 	if [[ "$1" == '--opt1' ]]; then
-		notify-send -u low " Remaining : ${percentage}%"
+		notify-send -u low " Restante : ${percentage}%"
 	elif [[ "$1" == '--opt2' ]]; then
-		notify-send -u low "$ICON_CHRG Status : $status"
+		notify-send -u low "$ICON_CHRG Estado : $status"
 	elif [[ "$1" == '--opt3' ]]; then
 		xfce4-power-manager-settings
 	elif [[ "$1" == '--opt4' ]]; then
@@ -114,7 +98,7 @@ run_cmd() {
 	fi
 }
 
-# Actions
+# Acciones
 chosen="$(run_rofi)"
 case ${chosen} in
     $option_1)
@@ -130,5 +114,4 @@ case ${chosen} in
 		run_cmd --opt4
         ;;
 esac
-
 

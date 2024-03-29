@@ -33,3 +33,10 @@ source $HOME/.aliases
 export PATH="$PATH:/opt/flutter/bin"
 export PATH="$PATH:bin"
 
+
+# bun completions
+[ -s "/home/shidox/.bun/_bun" ] && source "/home/shidox/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

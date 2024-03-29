@@ -55,6 +55,7 @@ application/x-extension-html=firefox.desktop;
 application/x-extension-shtml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+application/yaml=geany.desktop;
 
 [Removed Associations]
 x-scheme-handler/http=chromium-browser.desktop  ;

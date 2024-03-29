@@ -15,15 +15,15 @@
 
 # Verificar si xdpyinfo e imagemagick están instalados
 if ! command -v xdpyinfo > /dev/null 2>&1; then
-    dunstify "Missing package" "Please install the xorg-xdpyinfo package to continue" -u critical
+    dunstify "Paquete faltante" "Por favor, instala el paquete xorg-xdpyinfo para continuar" -u critical
     exit 1
 elif ! command -v convert > /dev/null 2>&1; then
-	dunstify "Missing package" "Please install the imagemagick package to continue" -u critical
+	dunstify "Paquete faltante" "Por favor, instala el paquete imagemagick para continuar" -u critical
     exit 1
 fi
 
-# Set some variables
-wall_dir="${HOME}/Imágenes/Wallpaper"
+# Establecer algunas variables
+wall_dir="${HOME}/Wallpaper"
 cacheDir="${HOME}/.cache/wall/${RICETHEME}"
 rofi_command="rofi -dmenu -theme ${HOME}/.config/bspwm/scripts/WallSelect.rasi -theme-str ${rofi_override}"
 
@@ -32,25 +32,30 @@ monitor_scale=$(xdpyinfo | grep -oP "resolution:.*" | awk '{print $2}' | cut -d 
 monitor_res=$(( monitor_res * 17 / monitor_scale ))
 rofi_override="element-icon{size:${monitor_res}px;border-radius:0px;}"
 
-# Create cache dir if not exists
+# Crear directorio de caché si no existe
 if [ ! -d "${cacheDir}" ] ; then
         mkdir -p "${cacheDir}"
-    fi
+fi
 
-# Convert images in directory and save to cache dir
+# Convertir imágenes en el directorio y guardar en el directorio de caché
 for imagen in "$wall_dir"/*.{jpg,jpeg,png,webp}; do
 	if [ -f "$imagen" ]; then
 		nombre_archivo=$(basename "$imagen")
 			if [ ! -f "${cacheDir}/${nombre_archivo}" ] ; then
 				convert -strip "$imagen" -thumbnail 500x500^ -gravity center -extent 500x500 "${cacheDir}/${nombre_archivo}"
-			fi
+			else
+                # Si la imagen ya existe en caché, asegurarse de que se actualice si es más reciente que la versión en caché
+                if [ "$imagen" -nt "${cacheDir}/${nombre_archivo}" ]; then
+                    convert -strip "$imagen" -thumbnail 500x500^ -gravity center -extent 500x500 "${cacheDir}/${nombre_archivo}"
+                fi
+            fi
     fi
 done
 
-# Launch rofi
+# Lanzar rofi
 wall_selection=$(find "${wall_dir}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -exec basename {} \; | sort | while read -r A ; do  echo -en "$A\x00icon\x1f""${cacheDir}"/"$A\n" ; done | $rofi_command)
 
-# Set wallpaper
+# Establecer fondo de pantalla
 [[ -n "$wall_selection" ]] || exit 1
 feh --no-fehbg --bg-fill "${wall_dir}"/"${wall_selection}"
 exit 0

@@ -1,100 +1,279 @@
 /home/shidox/.xprofile:4: no existe el fichero o el directorio: /home/shidox/.keymod/wls-key.sh
 xrdb: colon missing on line 54, ignoring line
 rule -a: Not enough arguments.
-/home/shidox/.config/bspwm/modules/autostart.conf: línea 37: ../scripts/lockscreen/autolock.sh: No existe el fichero o el directorio
+polybar|notice:  Parsing config file: /home/shidox/.config/bspwm/polybar/config.ini
+polybar|error: Uncaught exception, shutting down: Failed to open config file /home/shidox/.config/bspwm/polybar/config.ini: No such file or directory
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.839: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.017: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. 
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.017: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprUse :hover instead.
+ecated. Use :hover instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.839: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.017: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. 
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.017: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprUse :hover instead.
+ecated. Use :hover instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.840: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is 
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecatdeprecated. Use :disabled instead.
+ed. Use :disabled instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.840: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is 
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecatdeprecated. Use :disabled instead.
+ed. Use :disabled instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.840: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is 
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecatdeprecated. Use :disabled instead.
+ed. Use :disabled instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.840: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is 
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecatdeprecated. Use :disabled instead.
+ed. Use :disabled instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.840: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(polkit-gnome-authentication-agent-1:1095): Gtk-WARNING **: 14:13:20.840: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.018: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.935: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:642): Gtk-WARNING **: 17:46:57.019: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.935: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce-polkit:651): Gtk-WARNING **: 17:46:57.019: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.935: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:642): xfce4-power-manager-WARNING **: 17:46:59.237: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.935: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+** (xfce4-power-manager:642): WARNING **: 17:47:03.272: could not get output property
+[089 17:47:17.847032] Ignoring unknown config key: border_radius
+[089 17:47:17.847234] Ignoring unknown config key: columns
+[089 17:47:17.847344] Ignoring unknown config key: windows_padding_width
+[089 17:47:17.848041] Ignoring unknown config key: format
+[089 17:47:17.849365] Ignoring unknown config key: kitty
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.935: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(process:1729): GLib-CRITICAL **: 17:48:04.881: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.936: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:1783): Gtk-WARNING **: 17:48:05.801: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.936: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:1783): Gtk-WARNING **: 17:48:05.802: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:1093): Gtk-WARNING **: 14:13:20.936: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(firefox:1783): Gtk-WARNING **: 17:48:05.802: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:1093): xfce4-power-manager-WARNING **: 14:13:21.055: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+(firefox:1783): Gtk-WARNING **: 17:48:05.802: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-** (xfce4-power-manager:1093): WARNING **: 14:13:21.720: could not get output property
+(firefox:1783): Gtk-WARNING **: 17:48:05.802: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(process:1330): GLib-CRITICAL **: 14:13:36.652: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(firefox:1783): Gtk-WARNING **: 17:48:05.802: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(firefox:1388): Gtk-WARNING **: 14:13:37.534: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(firefox:1783): Gtk-WARNING **: 17:48:05.802: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[1783, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(firefox:1388): Gtk-WARNING **: 14:13:37.534: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:1388): Gtk-WARNING **: 14:13:37.535: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:1388): Gtk-WARNING **: 14:13:37.535: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:1388): Gtk-WARNING **: 14:13:37.535: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:1388): Gtk-WARNING **: 14:13:37.535: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:1388): Gtk-WARNING **: 14:13:37.536: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[1388, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:1388): Gtk-WARNING **: 14:13:37.536: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-[086 14:14:21.596207] Ignoring unknown config key: border_radius
-[086 14:14:21.596311] Ignoring unknown config key: columns
-[086 14:14:21.596367] Ignoring unknown config key: windows_padding_width
-[086 14:14:21.596773] Ignoring unknown config key: format
-[086 14:14:21.597486] Ignoring unknown config key: kitty
-WARNING: No icon found in path: 'dialog-information'
+(firefox:1783): Gtk-WARNING **: 17:48:05.803: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+[089 17:48:54.413498] Ignoring unknown config key: border_radius
+[089 17:48:54.413600] Ignoring unknown config key: columns
+[089 17:48:54.413653] Ignoring unknown config key: windows_padding_width
+[089 17:48:54.414024] Ignoring unknown config key: format
+[089 17:48:54.414725] Ignoring unknown config key: kitty
 WARNING: No icon found in path: 'dialog-information'
 CRITICAL: Source ID 20 was not found when attempting to remove it
-
-(polkit-gnome-authentication-agent-1:1095): polkit-gnome-1-WARNING **: 14:20:58.418: Unable to get a pixbuf for GTK_STOCK_DIALOG_AUTHENTICATION (gtk-dialog-authentication) at size 48
+zsh:1: command not found: scrot
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/anki.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/anki.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/terminal.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/terminal.svg: No existe el fichero o el directorio
+warning: icon cache does not exist
+info: created 2 symlinks in /home/shidox/.cache/jgmenu/icons
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-log-out.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-log-out.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-reboot.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-reboot.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/colors.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/colors.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/office-calendar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/office-calendar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-users.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-users.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/retroarch.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/retroarch.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/standard-notes.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/standard-notes.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/anki.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/anki.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/terminal.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/terminal.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/anki.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/anki.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/terminal.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/terminal.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-log-out.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-log-out.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-reboot.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-reboot.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/colors.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/colors.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/office-calendar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/office-calendar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-users.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-users.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/retroarch.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/retroarch.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/standard-notes.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/standard-notes.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/anki.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/anki.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/terminal.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/terminal.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/anki.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/anki.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/terminal.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/terminal.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-log-out.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-log-out.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-reboot.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-reboot.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/colors.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/colors.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/office-calendar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/office-calendar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-users.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-users.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/retroarch.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/retroarch.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/standard-notes.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/standard-notes.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/system-shutdown.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/kmenuedit.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/anki.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/anki.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/org.xfce.thunar.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/firefox-default.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/terminal.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/terminal.svg: No existe el fichero o el directorio
 WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 27 was not found when attempting to remove it
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 34 was not found when attempting to remove it
+CRITICAL: Source ID 70 was not found when attempting to remove it
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+/home/shidox/.config/bspwm/scripts/OpenApps: línea 53: vscodium: orden no encontrada
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: nonnumeric characters; value='1 // Se ajusta el borde para permitir visualizar el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se ajusta el borde para permitir visualizar el efecto glass'; key='config.menu_border'
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: nonnumeric characters; value='1 // Se ajusta el borde para permitir visualizar el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se ajusta el borde para permitir visualizar el efecto glass'; key='config.menu_border'
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: nonnumeric characters; value='2 // Se ajusta el borde a un grosor pequeño pero apreciable para el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se añade un pequeño borde a los ítems para un efecto sutil'; key='config.item_border'
+warning: nonnumeric characters; value='2 // Se ajusta el borde a un grosor pequeño pero apreciable para el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se añade un pequeño borde a los ítems para un efecto sutil'; key='config.item_border'
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: nonnumeric characters; value='2 // Se ajusta el borde a un grosor pequeño pero apreciable para el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se añade un pequeño borde a los ítems para un efecto sutil'; key='config.item_border'
+warning: nonnumeric characters; value='2 // Se ajusta el borde a un grosor pequeño pero apreciable para el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se añade un pequeño borde a los ítems para un efecto sutil'; key='config.item_border'
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: nonnumeric characters; value='1 // Se ajusta el borde a un grosor pequeño pero apreciable para el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se añade un pequeño borde a los ítems para un efecto sutil'; key='config.item_border'
+warning: nonnumeric characters; value='1 // Se ajusta el borde a un grosor pequeño pero apreciable para el efecto glass'; key='config.menu_border'
+warning: nonnumeric characters; value='1 // Se añade un pequeño borde a los ítems para un efecto sutil'; key='config.item_border'
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-prevent.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/preferences-desktop-keyboard-shortcuts.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/32x32/status/changes-allow.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/32x32/status/changes-allow.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/musique.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/musique.svg: No existe el fichero o el directorio
+warning: problem loading svg /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg-I/O error: Error al abrir el archivo /usr/share/icons/candy-icons/apps/scalable/gnome-windows.svg: No existe el fichero o el directorio
 /home/shidox/.config/bspwm/rofi/bin/windows: línea 8: wmctrl: orden no encontrada
 Validating the theme failed: the variable 'background-alt' in `scrollbar { background-color: var(background-alt);}` failed to resolve.
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
-zsh:1: command not found: jgmenu
+convert: corrupt image `/home/shidox/Wallpaper/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.050: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.052: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-01.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.052: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.054: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.054: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.055: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.056: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.056: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.059: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.059: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+
+(process:21127): Helpers.IconFetcher-WARNING **: 18:07:51.059: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
 WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 41 was not found when attempting to remove it
+CRITICAL: Source ID 77 was not found when attempting to remove it
 WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 48 was not found when attempting to remove it
+CRITICAL: Source ID 84 was not found when attempting to remove it
 WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 55 was not found when attempting to remove it
 WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 62 was not found when attempting to remove it
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 69 was not found when attempting to remove it
+[089 18:29:40.022625] Ignoring unknown config key: border_radius
+[089 18:29:40.022727] Ignoring unknown config key: columns
+[089 18:29:40.022781] Ignoring unknown config key: windows_padding_width
+[089 18:29:40.023147] Ignoring unknown config key: format
+[089 18:29:40.023837] Ignoring unknown config key: kitty

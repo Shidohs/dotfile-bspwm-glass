@@ -1,9 +1,9 @@
 * {
-    background:			#030315;
-    foreground:			#cdc7d3;
-    selected:			#9F6495;
-    highlight:			#60559D;
-    urgent:				#553B88;
-    on:					#364995;
-    off:				#553B88;
+    background:			#030315CC; // Haciéndolo glass con mayor opacidad para mejorar la visibilidad
+    foreground:			#E6E1E8; // Aclarando para mejorar contraste y visibilidad
+    selected:			#BF72A9; // Aclarando para mantener la coherencia y mejorar visibilidad
+    highlight:			#8573B2; // Aclarando para mantener la coherencia y mejorar visibilidad
+    urgent:				#7D5BA6; // Aclarando para mantener la coherencia y mejorar visibilidad
+    on:					#4D6AB3; // Aclarando para mejorar visibilidad
+    off:				#7D5BA6; // Aclarando para mantener la coherencia y mejorar visibilidad
 }
