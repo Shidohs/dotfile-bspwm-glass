@@ -2,18 +2,20 @@
 
 get_battery_info() {
 
-  capacity=$(upower -i $(upower -e | grep 'BAT') | grep percentage | awk '{print $2}' | cut -d'%' -f1)
+  capacidad_entera=$(upower -i $(upower -e | grep 'BAT') | grep percentage | awk '{print $2}' | cut -d'%' -f1)
   status=$(upower -i $(upower -e | grep 'BAT') | grep state | awk '{print $2}')
 
-  echo "$capacity|$status"
+  echo "$capacidad_entera|$status"
 }
 
 
-print_battery() {
+screen_battery() {
   info=$(get_battery_info)
 
-  capacity=$(echo "$info" | cut -d'|' -f1)
+  capacidad_entera=$(echo "$info" | cut -d'|' -f1)
   status=$(echo "$info" | cut -d'|' -f2)
+   # Corrección para evitar el problema de tipo booleano esperado vs entero
+  capacidad_entera=$(echo "$capacidad_entera" | awk '{printf("%d\n", $1)}')
 
   full_icon_battery=""
   high_icon_battery=""
@@ -23,28 +25,26 @@ print_battery() {
   very_low_icon_battery=""
   icon=$default_icon
 
+
+
   if [ "$status" = "charging" ]; then
     icon=$charging_icon_battery
-  elif [ "$capacity" -ge 80 ] && [ "$capacity" -lt 100 ]; then
+  elif [ "$capacidad_entera" -ge 80 ] && [ "$capacidad_entera" -lt 100 ]; then
     icon=$full_icon_battery
-  elif [ "$capacity" -ge 60 ] && [ "$capacity" -lt 80 ]; then
+  elif [ "$capacidad_entera" -ge 60 ] && [ "$capacidad_entera" -lt 80 ]; then
     icon=$high_icon_battery
-  elif [ "$capacity" -ge 40 ] && [ "$capacity" -lt 60 ]; then
+  elif [ "$capacidad_entera" -ge 40 ] && [ "$capacidad_entera" -lt 60 ]; then
     icon=$medium_icon_battery
-  elif [ "$capacity" -ge 20 ] && [ "$capacity" -lt 40 ]; then
+  elif [ "$capacidad_entera" -ge 20 ] && [ "$capacidad_entera" -lt 40 ]; then
     icon=$low_icon_battery
   else
     icon=$very_low_icon_battery
   fi
 
 
-
-
-
-  echo "$icon $capacity%"
+  echo "$icon ${capacidad_entera}%"
 }
 
-
 if [ "$1" == "--status" ]; then
-  print_battery
+  screen_battery
 fi
