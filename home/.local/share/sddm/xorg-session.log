@@ -195,3 +195,5 @@ Validating the theme failed: the variable 'background-alt' in `scrollbar { backg
 /home/shidox/.config/bspwm/rofi/bin/windows: línea 8: wmctrl: orden no encontrada
 Validating the theme failed: the variable 'background-alt' in `scrollbar { background-color: var(background-alt);}` failed to resolve.
 [6809:0330/174105.263868:ERROR:x11_software_bitmap_presenter.cc(141)] XGetWindowAttributes failed for window 23068752
+WARNING: No icon found in path: 'dialog-information'
+CRITICAL: Source ID 146 was not found when attempting to remove it
