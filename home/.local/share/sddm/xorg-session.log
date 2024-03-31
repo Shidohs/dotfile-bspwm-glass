@@ -2856,3 +2856,738 @@ polybar|notice:  Loaded font "Font Awesome 6 Free Solid:size=12" (name=Font Awes
 polybar|notice:  Loaded font "Material Design Icons Desktop:size=14" (name=Material Design Icons Desktop, offset=4, file=/home/shidox/.fonts/MaterialDesignIconsDesktop.ttf)
 polybar|notice:  Loaded font "Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14" (name=Material-Design-Iconic-Font, offset=4, file=/home/shidox/.fonts/material_design_iconic_font.ttf)
 polybar|notice:  Loaded font "MesloLGS NF:style=Regular:size=15" (name=MesloLGS NF, offset=4, file=/home/shidox/.fonts/MesloLGS_NF_Regular.ttf)
+
+(process:88851): GLib-CRITICAL **: 11:15:52.946: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.946: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.946: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.946: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.946: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.947: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.947: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.947: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[88893, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:88893): Gtk-WARNING **: 11:15:53.947: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(process:89927): GLib-CRITICAL **: 11:16:29.491: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.797: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.800: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.800: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.801: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.801: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.801: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.801: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar:89979): Gtk-WARNING **: 11:16:29.801: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+convert: corrupt image `/home/shidox/Wallpapers/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.648: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-01.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.650: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.651: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.652: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.653: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.654: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.655: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.656: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.656: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.657: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:03.657: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:05.747: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-1.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:05.747: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-2.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:05.758: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-3.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:05.760: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-2.webp»
+
+(process:108831): Helpers.IconFetcher-WARNING **: 11:32:05.761: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06.webp»
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+
+(viewnior:151345): Gtk-WARNING **: 12:07:08.598: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151345): Gtk-WARNING **: 12:07:08.598: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151345): Gtk-WARNING **: 12:07:08.602: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151345): Gtk-WARNING **: 12:07:08.602: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151345): Gtk-WARNING **: 12:07:08.602: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+** (viewnior:151345): WARNING **: 12:07:08.648: Error loading config file: No existe el fichero o el directorio. All preferences are set to their default values. Saving ...
+
+(viewnior:151527): Gtk-WARNING **: 12:07:17.172: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151527): Gtk-WARNING **: 12:07:17.172: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151527): Gtk-WARNING **: 12:07:17.173: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151527): Gtk-WARNING **: 12:07:17.173: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:151527): Gtk-WARNING **: 12:07:17.173: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+convert: corrupt image `/home/shidox/Wallpapers/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.062: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.064: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.066: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.066: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.066: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.067: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.068: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.068: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.068: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.070: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:51.070: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-1.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:55.429: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-2.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:55.430: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-3.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:55.431: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06.webp»
+
+(process:152263): Helpers.IconFetcher-WARNING **: 12:07:55.432: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-2.webp»
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character '道' (U+9053) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'し' (U+3057) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'る' (U+308b) in 'pasoputi en X: "道しるべ https:... '
+polybar|warn:  Dropping unmatched character 'べ' (U+3079) in 'pasoputi en X: "道しるべ https:... '
+convert: corrupt image `/home/shidox/Wallpapers/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.324: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.332: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.333: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.334: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.334: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.335: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.337: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.338: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.338: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.338: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:154827): Helpers.IconFetcher-WARNING **: 12:09:49.339: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-1.webp»
+convert: corrupt image `/home/shidox/Wallpapers/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.898: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.899: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.900: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.900: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.901: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.902: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.903: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.904: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.906: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.908: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-1.webp»
+
+(process:155155): Helpers.IconFetcher-WARNING **: 12:09:57.910: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+convert: corrupt image `/home/shidox/Wallpapers/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.470: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.470: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.471: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.471: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.470: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.473: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.475: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.481: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.482: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.489: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-1.webp»
+
+(process:155253): Helpers.IconFetcher-WARNING **: 12:10:02.490: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+convert: corrupt image `/home/shidox/Wallpapers/wall-04(1).webp' @ error/webp.c/ReadWEBPImage/572.
+convert: no images defined `/home/shidox/.cache/wall/rey/wall-04(1).webp' @ error/convert.c/ConvertImageCommand/3362.
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.501: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02 (copia).webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.503: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-1.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.506: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.506: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-02-2.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.509: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-03.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.512: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04 (copia).webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.513: Failed to load image: Falló al abrir el archivo «/home/shidox/.cache/wall/rey/wall-04(1).webp»: No existe el fichero o el directorio
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.513: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-04.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.513: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05 (copia).webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.515: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-05.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:08.516: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-1.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:10.437: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-2.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:10.438: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06-3.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:10.439: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-06.webp»
+
+(process:155503): Helpers.IconFetcher-WARNING **: 12:10:10.442: Failed to load image: No se pudo reconocer el formato de imagen del archivo «/home/shidox/.cache/wall/rey/wall-2.webp»
+
+(process:157175): Helper-WARNING **: 12:11:22.604: Failed to set lock on pidfile: Rofi already running?
+
+(process:157175): Helper-WARNING **: 12:11:22.607: Got error: -1 Función ioctl no apropiada para el dispositivo
+
+(process:157186): Helper-WARNING **: 12:11:22.683: Failed to set lock on pidfile: Rofi already running?
+
+(process:157186): Helper-WARNING **: 12:11:22.683: Got error: -1 Función ioctl no apropiada para el dispositivo
+
+(process:157190): Helper-WARNING **: 12:11:22.744: Failed to set lock on pidfile: Rofi already running?
+
+(process:157190): Helper-WARNING **: 12:11:22.744: Got error: -1 Función ioctl no apropiada para el dispositivo
+
+(viewnior:157956): Gtk-WARNING **: 12:12:01.565: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:157956): Gtk-WARNING **: 12:12:01.565: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:157956): Gtk-WARNING **: 12:12:01.567: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:157956): Gtk-WARNING **: 12:12:01.567: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:157956): Gtk-WARNING **: 12:12:01.567: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:158477): Gtk-WARNING **: 12:12:23.654: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:158477): Gtk-WARNING **: 12:12:23.655: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:158477): Gtk-WARNING **: 12:12:23.656: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:158477): Gtk-WARNING **: 12:12:23.656: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:158477): Gtk-WARNING **: 12:12:23.656: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+feh WARNING: trash:/ does not exist - skipping
+feh: No loadable images specified.
+See 'feh --help' or 'man feh' for detailed usage information
+feh WARNING: /home/shidox/Wallpapers/wallpaper - Does not look like an image (magic bytes missing)
+
+(viewnior:167354): Gtk-WARNING **: 12:19:16.668: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:167354): Gtk-WARNING **: 12:19:16.668: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:167354): Gtk-WARNING **: 12:19:16.670: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:167354): Gtk-WARNING **: 12:19:16.670: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:167354): Gtk-WARNING **: 12:19:16.670: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '白' (U+767d) in 'ArtStation - < 白 >, Dora — ... '
+feh WARNING: /home/shidox/Wallpapers/wall-04(1).webp - Does not look like an image (magic bytes missing)
+[091 12:21:10.875470] Ignoring unknown config key: border_radius
+[091 12:21:10.875570] Ignoring unknown config key: columns
+[091 12:21:10.875625] Ignoring unknown config key: windows_padding_width
+[091 12:21:10.875998] Ignoring unknown config key: format
+[091 12:21:10.876721] Ignoring unknown config key: kitty
+
+(process:169939): GLib-CRITICAL **: 12:21:19.022: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+** Message: 12:21:20.801: flatpak_plugin.vala:393: refreshing flathub appstream data
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.209: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:175372): Gtk-WARNING **: 12:25:36.210: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+** Message: 12:25:52.591: Unable to use GNOME Shell's builtin screenshot interface, resorting to fallback X11.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.376: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(gnome-screenshot:176175): Gtk-WARNING **: 12:26:16.377: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+** Message: 12:26:22.941: Unable to use GNOME Shell's builtin screenshot interface, resorting to fallback X11.
+
+(viewnior:181537): Gtk-WARNING **: 12:30:30.509: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:181537): Gtk-WARNING **: 12:30:30.509: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:181537): Gtk-WARNING **: 12:30:30.510: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:181537): Gtk-WARNING **: 12:30:30.511: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:181537): Gtk-WARNING **: 12:30:30.511: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+feh WARNING: /home/shidox/Wallpapers/wall-04(1).webp - Does not look like an image (magic bytes missing)
+feh WARNING: /home/shidox/Wallpapers/wall-04(1).webp - Does not look like an image (magic bytes missing)
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+polybar|warn:  Dropping unmatched character '窄' (U+7a84) in 'ArtStation - < 窄 >, Dora — ... '
+feh WARNING: /home/shidox/Wallpapers/wall-04(1).webp - Does not look like an image (magic bytes missing)
+
+(viewnior:194962): Gtk-WARNING **: 12:41:04.064: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:194962): Gtk-WARNING **: 12:41:04.064: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:194962): Gtk-WARNING **: 12:41:04.066: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:194962): Gtk-WARNING **: 12:41:04.066: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+
+(viewnior:194962): Gtk-WARNING **: 12:41:04.066: Imposible encontrar el motor de temas en la ruta al _modulo: «murrine»,
+WARNING: No icon found in path: 'dialog-information'
+CRITICAL: Source ID 20 was not found when attempting to remove it
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+CRITICAL: Source ID 41 was not found when attempting to remove it
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.965: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.965: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.965: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.966: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.966: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.966: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.966: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(cursor:200548): Gtk-WARNING **: 12:45:12.966: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+[200548:0331/124513.277480:ERROR:object_proxy.cc(577)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: La interfaz «org.freedesktop.portal.FileChooser» no existe
+[200548:0331/124513.277547:ERROR:select_file_dialog_linux_portal.cc(280)] Failed to read portal version property
+[91m[main 2024-03-31T17:45:15.335Z][0m [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+[91m[main 2024-03-31T17:45:15.336Z][0m [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+[91m[main 2024-03-31T17:45:15.356Z][0m [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+[91m[main 2024-03-31T17:45:15.356Z][0m Error: SQLITE_CANTOPEN: unable to open database file
+Warning: vkCreateInstance: Found no drivers!
+Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
+    at CheckVkSuccessImpl (../../third_party/dawn/src/dawn/native/vulkan/VulkanError.cpp:88)
+    at CreateVkInstance (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:458)
+    at Initialize (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:344)
+    at Create (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:266)
+    at operator() (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:521)
+
+[200691:0331/124713.438516:ERROR:gl_display.cc(520)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.1) is greater than max supported (3, 0).
+Warning: eglCreateContext failed with EGL_BAD_ATTRIBUTE
+    at CheckEGL (../../third_party/dawn/src/dawn/native/opengl/UtilsEGL.cpp:71)
+    at Create (../../third_party/dawn/src/dawn/native/opengl/ContextEGL.cpp:88)
+    at Create (../../third_party/dawn/src/dawn/native/opengl/PhysicalDeviceGL.cpp:97)
+
+[091 12:48:50.764113] Ignoring unknown config key: border_radius
+[091 12:48:50.764226] Ignoring unknown config key: columns
+[091 12:48:50.764286] Ignoring unknown config key: windows_padding_width
+[091 12:48:50.764658] Ignoring unknown config key: format
+[091 12:48:50.765399] Ignoring unknown config key: kitty
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214062): Gtk-WARNING **: 12:55:06.449: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo USB no compatible «usb».
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214071): Gtk-WARNING **: 12:55:06.628: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo de entrada no compatible «/dev/input/event3».
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.818: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.818: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.818: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.819: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.819: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.819: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.819: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214076): Gtk-WARNING **: 12:55:06.819: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.997: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214081): Gtk-WARNING **: 12:55:06.998: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.175: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214086): Gtk-WARNING **: 12:55:07.176: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo USB no compatible «usbhid».
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214924): Gtk-WARNING **: 12:55:49.026: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo USB no compatible «usb».
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.301: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.301: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.302: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.302: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.302: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.302: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.302: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214933): Gtk-WARNING **: 12:55:49.302: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo de entrada no compatible «/dev/input/event3».
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.482: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214939): Gtk-WARNING **: 12:55:49.483: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214957): Gtk-WARNING **: 12:55:49.679: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214962): Gtk-WARNING **: 12:55:49.857: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo USB no compatible «usbhid».
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214967): Gtk-WARNING **: 12:55:51.002: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo USB no compatible «usb».
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.176: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.176: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.176: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.176: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.176: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.176: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.177: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214988): Gtk-WARNING **: 12:55:51.177: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo de entrada no compatible «/dev/input/event3».
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.358: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.358: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.359: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.359: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.359: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.359: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.359: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214993): Gtk-WARNING **: 12:55:51.359: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:214998): Gtk-WARNING **: 12:55:51.539: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.720: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(thunar-volman:215003): Gtk-WARNING **: 12:55:51.721: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+thunar-volman: Tipo de dispositivo USB no compatible «usbhid».

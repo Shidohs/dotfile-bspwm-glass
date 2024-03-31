@@ -31,7 +31,7 @@ window {
     spacing:                     0px;
     padding:                     0px;
     border:                      0px;
-    border-radius:               0px;
+    border-radius:               12px;
     border-color:                transparent;
     background-color:            transparent;
 }
@@ -48,7 +48,7 @@ mainbox {
 
 listview {
     enabled:                     true;
-    columns:                     6;
+    columns:                     3;
     lines:                       2;
     spacing:                     50px;
     padding:                     20px 30px;
