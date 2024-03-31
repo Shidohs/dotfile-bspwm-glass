@@ -3591,3 +3591,176 @@ thunar-volman: Tipo de dispositivo de entrada no compatible «/dev/input/event3�
 
 (thunar-volman:215003): Gtk-WARNING **: 12:55:51.721: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
 thunar-volman: Tipo de dispositivo USB no compatible «usbhid».
+
+(thunar:89979): thunar-WARNING **: 13:00:50.162: Content type loading failed for .WALL1.jpg.e3e5Y9: Error al obtener la información del archivo «/home/shidox/repos/dotfile-i3-bspwm/Wallpapers/.WALL1.jpg.e3e5Y9»: No existe el fichero o el directorio
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.560: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.560: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.560: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.560: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.561: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.561: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.561: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(exo-open:224396): Gtk-WARNING **: 13:03:12.561: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.776: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.776: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.776: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.776: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.776: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.776: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.777: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-mime-helper:224401): Gtk-WARNING **: 13:03:12.777: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(xfce4-terminal:224408): Gtk-WARNING **: 13:03:13.118: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(xfce4-terminal:224408): xfce4-terminal-WARNING **: 13:03:13.270: Failed to connect to session manager: No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(geany:244085): Gtk-WARNING **: 13:19:04.595: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.595: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.595: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.595: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.595: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.595: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.596: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:244085): Gtk-WARNING **: 13:19:04.596: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.438: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:245354): Gtk-WARNING **: 13:20:07.439: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+[091 13:41:49.792614] Ignoring unknown config key: border_radius
+[091 13:41:49.792715] Ignoring unknown config key: columns
+[091 13:41:49.792768] Ignoring unknown config key: windows_padding_width
+[091 13:41:49.793136] Ignoring unknown config key: format
+[091 13:41:49.793832] Ignoring unknown config key: kitty
+[091 13:42:05.738604] Ignoring unknown config key: border_radius
+[091 13:42:05.738711] Ignoring unknown config key: columns
+[091 13:42:05.738825] Ignoring unknown config key: windows_padding_width
+[091 13:42:05.739270] Ignoring unknown config key: format
+[091 13:42:05.739975] Ignoring unknown config key: kitty
+
+(process:280519): GLib-CRITICAL **: 13:48:48.923: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+[091 13:52:34.938313] Ignoring unknown config key: border_radius
+[091 13:52:34.938418] Ignoring unknown config key: columns
+[091 13:52:34.938473] Ignoring unknown config key: windows_padding_width
+[091 13:52:34.938876] Ignoring unknown config key: format
+[091 13:52:34.939619] Ignoring unknown config key: kitty
+
+(process:285489): GLib-CRITICAL **: 13:52:41.141: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+
+(thunar:89979): thunar-WARNING **: 14:01:00.342: Content type loading failed for .3.conf.a1uYM7: Error al obtener la información del archivo «/home/shidox/repos/dotfile-i3-bspwm/config/.3.conf.a1uYM7»: No existe el fichero o el directorio
+
+(geany:301427): Gtk-WARNING **: 14:05:30.440: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.440: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.441: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.441: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.441: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.441: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.441: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301427): Gtk-WARNING **: 14:05:30.441: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.821: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:301858): Gtk-WARNING **: 14:05:51.822: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302204): Gtk-WARNING **: 14:06:07.928: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.531: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(geany:302318): Gtk-WARNING **: 14:06:12.532: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(process:308429): GLib-CRITICAL **: 14:11:08.953: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+WARNING: No icon found in path: 'edit-undo-symbolic'
+CRITICAL: Source ID 48 was not found when attempting to remove it

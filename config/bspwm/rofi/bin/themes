@@ -42,7 +42,7 @@ options="$random\n$dynamic\n$default\n\n$theme_1\n$theme_2\n$theme_3\n$theme_4\n
 \n$theme_16\n$theme_17\n$theme_18\n$theme_19\n$theme_20"
 
 # Get folder names from a directory
-DYNADIR="/usr/share/dynamic-wallpaper/images/"
+DYNADIR="/usr/share/dynamic-Wallpapers/images/"
 submenu_options=$(find "$DYNADIR" -mindepth 1 -type d -exec sh -c 'echo " $(basename "$0")"' {} \;)
 
 set_gtk_theme() {
@@ -79,7 +79,7 @@ set_style() {
 
 ## Apply random theme
 random_theme() {
-	## Set you wallpaper directory here.
+	## Set you Wallpapers directory here.
 	#WALLDIR="`xdg-user-dir PICTURES`/Wallpapers"
     WALLDIR="/usr/share/backgrounds/Wallpapers"
     WALFILE="$HOME/.cache/wal/colors.sh"
@@ -110,9 +110,9 @@ random_theme() {
 
 ## Apply Dynamic theme
 dynamic_theme() {
-    WALLDIR="/usr/share/dynamic-wallpaper/images"
+    WALLDIR="/usr/share/dynamic-Wallpapers/images"
 
-    ## Get wallpaper directory
+    ## Get Wallpapers directory
     WALL="$1"
     # Get current hour
     HOUR=`date +%H`

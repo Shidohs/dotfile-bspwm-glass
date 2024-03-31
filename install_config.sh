@@ -14,7 +14,6 @@ if  pacman -Qq "yay" &> /dev/null ; then
     echo "yay: instalado"
 else
     sudo pacman -S --noconfirm base-devel zsh git
-    cd /opt
     git clone https://aur.archlinux.org/yay.git /opt/yay
     sudo chown -R $USER: /opt/yay 
     cd /opt/yay
@@ -28,16 +27,20 @@ echo 'Comprobando si existen los programas requeridos para el funcionamiento'
 # Lista de programas por categoría
 terminal=("alacritty" "kitty")
 code=("vscode" "sublime-text-4" "neovim" "geany")  
-file=("thunar" "nemo")
+file=("thunar")
 web=("firefox" "google-chrome")
 game=("wine" "wine-mono" "winetricks")
 multimedia=("viewnior" "celluloid" "ristretto")
-otros=("picom-ftlabs-git" "zsh" "font-manager" "plocate" "bat" "betterlockscreen"  
+
+otros=("picom-ftlabs-git" "zsh" 
+"font-manager" "plocate" "bat" "betterlockscreen"  
 "blueman" "brightnessctl" "btop" "neofetch" "xclip" "curl" "python"  
 "dunst" "ffmpeg" "fzf" "glow" "gparted" "grub-customizer" "gtk" "gtk2" "gtk3"  
 "gtk4" "imagemagick" "ocs-url" "rsync")
-sistema=("bspwm" "acpi" "acpid" "lxappearance" "polybar" "xautolock" "sddm" "sxhkd" "tree")
-fonts=("fontdownloader" "ttf-fira-code" "ttf-firacode-nerd" "ttf-font-awesome" "ttf-jetbrains-mono-nerd" "ttf-nerd-fonts-symbols" "ttf-victor-mono-nerd" "ttf-material-design-iconic-font" "ttf-material-design-icons-desktop-git" "")
+
+sistema=( "exa" "jgmenu" "dmenu" "bspwm" "acpi" "acpid" "lxappearance" "polybar" "xautolock" "sddm" "sxhkd" "tree")
+
+fonts=( "candy-icons-git" "fontdownloader" "ttf-fira-code" "ttf-firacode-nerd" "ttf-font-awesome" "ttf-jetbrains-mono-nerd" "ttf-nerd-fonts-symbols" "ttf-victor-mono-nerd" "ttf-material-design-iconic-font" "ttf-material-design-icons-desktop-git" "")
 
 
 
@@ -126,9 +129,6 @@ else
     echo "Modificando .p10k.zsh"
 	cp ~/repos/dotfile-i3-bspwm/home/.p10k.zsh ~/
 fi
-
-
-
 
 # hacer este proceso en root
 
@@ -274,10 +274,9 @@ if pacman -Qq "pamac-all";then
     if pacman -Qq "powerpill"; then
       sudo pacman -Sy --noconfirm && sudo powerpill -Su && yay -Su
     else
-      yay -S --noconfirme powerpill
+      yay -S --noconfirm powerpill
       sudo pacman -Sy --noconfirm && sudo powerpill -Su && yay -Su
-    fi
-    
+fi
      
 else
     echo "Tienda Aur: No Instalado"
@@ -291,7 +290,7 @@ echo "----- INSTALANDO FUENTES -----"
 for font in "${terminal[@]}"; do
    check_and_install "$font"
 done
-rsync -av ~/repos/dotfile-i3-bspwm/home/.fonts/ ~/
+rsync -av  ~/repos/dotfile-i3-bspwm/home/.fonts/ ~/.fonts/
 
 # configurando el tema general de ldesktop
 
@@ -308,6 +307,9 @@ cp -r ~/repos/dotfile-i3-bspwm/Wallpaper ~/
 #Config de .config
 echo "COPIANDO TODO .CONFIG"
 rsync -av ~/repos/dotfile-i3-bspwm/config/ ~/.config
+
+sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
 
 echo "INSTALACION COMPLETADA"
 

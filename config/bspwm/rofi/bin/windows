@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+## Derechos de autor (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Se permite a todos copiar y distribuir copias de este archivo bajo GNU-GPL3
 
 DIR="$HOME/.config/bspwm"
 
+# Captura el número de ventanas y calcula el ancho dinámicamente
 num_windows=$(wmctrl -l | wc -l)
 width=$((num_windows * 150))
 
-rofi -no-lazy-grab -show window -theme $DIR/rofi/themes/window.rasi -theme-str "window { width: ${width}px; } listview { columns: $num_windows; }"
+# Configura rofi para emular el comportamiento de Alt+Tab de Windows
+rofi -modi window -show window -kb-row-down "Alt+Tab,Down" -kb-row-up "Alt+Shift+Tab,Up" -theme $DIR/rofi/themes/window.rasi -theme-str "window { width: ${width}px; } listview { columns: $num_windows; }"

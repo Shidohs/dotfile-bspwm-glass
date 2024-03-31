@@ -27,7 +27,7 @@ application/x-extension-xht=firefox.desktop
 [Added Associations]
 image/jpeg=ristretto.desktop 
 image/png=ristretto.desktop
-text/plain=gedit.desktop  
+text/plain=geany.desktop;gedit.desktop  ;
 text/x-scss=geany.desktop
 application/x-shellscript=geany.desktop
 application/pdf=evince.desktop

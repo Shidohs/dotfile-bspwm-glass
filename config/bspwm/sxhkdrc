@@ -68,7 +68,7 @@ super + ctrl + p
 ##############################################
 # Fondo de pantalla aleatorio
 ##############################################
-# Random wallpaper
+# Random Wallpapers
 super + alt + w
 	WallSelect
 

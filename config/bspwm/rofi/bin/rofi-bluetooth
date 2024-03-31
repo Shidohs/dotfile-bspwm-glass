@@ -17,7 +17,7 @@
 #   Arch repositories: rofi, bluez-utils (contains bluetoothctl)
 
 # Constants
-divider="---------"
+divider="__________________________"
 goback="Back"
 
 # Checks if bluetooth controller is powered on
@@ -181,9 +181,9 @@ toggle_trust() {
 
 # Prints a short string with the current bluetooth status
 # Useful for status bars like polybar, etc.
-print_status() {
+screen_status() {
     if power_on; then
-        printf '󰂯'
+        echo "󰂯"
 
         paired_devices_cmd="devices Paired"
         # Check if an outdated version of bluetoothctl is used to preserve backwards compatibility
@@ -191,7 +191,7 @@ print_status() {
             paired_devices_cmd="paired-devices"
         fi
 
-        mapfile -t paired_devices < <(bluetoothctl $paired_devices_cmd | grep Device | cut -d ' ' -f 2)
+        mapfile -t paired_devices < <(bluetoothctl "$paired_devices_cmd" | grep Device | cut -d ' ' -f 2)
         counter=0
 
         for device in "${paired_devices[@]}"; do
@@ -309,9 +309,11 @@ rofi_command="rofi -theme ~/.config/bspwm/rofi/themes/rounded-gray-dark.rasi -dm
 
 case "$1" in
     --status)
-        print_status
+       screen_status
         ;;
     *)
-        show_menu
+       show_menu
         ;;
 esac
+
+
