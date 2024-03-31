@@ -10,7 +10,7 @@ elif ! command -v convert > /dev/null 2>&1; then
 fi
 
 # Establecer algunas variables
-wall_dir="${HOME}/Wallpaper"
+wall_dir="${HOME}/Wallpapers"
 cacheDir="${HOME}/.cache/wall/${RICETHEME}"
 rofi_command="rofi -dmenu -theme ${HOME}/.config/bspwm/scripts/WallSelect.rasi -theme-str ${rofi_override}"
 
