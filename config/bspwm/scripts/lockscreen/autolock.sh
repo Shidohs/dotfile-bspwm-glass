@@ -1,9 +1,4 @@
 #!/bin/bash
-
-# Inicia xfce4-power-manager y polkit-gnome-authentication-agent-1
-xfce4-power-manager &
-polkit-gnome-authentication-agent-1 &
-
 # Mata cualquier instancia de xautolock que pueda estar ejecutándose
 pkill -f xautolock
 

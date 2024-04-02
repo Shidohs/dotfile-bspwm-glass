@@ -39,4 +39,8 @@ export PATH="$PATH:bin"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
+
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# GOOGLE PATH FOR FLUTTER
+alias google-chrome="google-chrome-stable"

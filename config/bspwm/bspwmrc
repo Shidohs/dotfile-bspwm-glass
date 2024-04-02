@@ -11,9 +11,7 @@ PATH="$HOME/.config/bspwm/scripts:$PATH"
 source "$HOME/.config/bspwm/modules/rules.conf"
 source "$HOME/.config/bspwm/modules/autostart.conf"
 
-
-
-# Fix java applications
+# Corrección para aplicaciones Java
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 bspc config border_width                         2
@@ -24,25 +22,19 @@ bspc config gapless_monocle                   true
 bspc config focus_follows_pointer true
 
 
-#  ╦ ╦╔═╗╦═╗╦╔═╔═╗╔═╗╔═╗╔═╗╔═╗╔═╗
-#  ║║║║ ║╠╦╝╠╩╗╚═╗╠═╝╠═╣║  ║╣ ╚═╗
-#  ╚╩╝╚═╝╩╚═╩ ╩╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
-# Restablecer los escritorios y la ventana seleccionada al inicio
+# Configuración de escritorios y monitores
 # bspc wm -d "Terminal" "Browser" "Code" "File" "Random"
 
-	# Default 1 monitor with 6 workspaces
-	for monitor in "$(xrandr -q | grep -w 'connected' | cut -d' ' -f1)"; do
-		bspc monitor "$monitor" -d '1' '2' '3' '4' '5' '6'
-		#bspc monitor "$monitor" -d '' '' '' '' '' ''
-	done
+for monitor in $(xrandr -q | grep -w 'connected' | cut -d' ' -f1); do
+	bspc monitor "$monitor" -d '1' '2' '3' '4' '5' '6'
+	# Para configuraciones de dos o tres monitores ver https://github.com/gh0stzk/dotfiles/wiki/Two-or-more-monitors-setup
+done
 
-	## For two or three monitors configuration see https://github.com/gh0stzk/dotfiles/wiki/Two-or-more-monitors-setup
-
-
-# Load bspwm conf, colors, dunst, bars and/or eww widgets
+# Cargar configuración de bspwm, colores, dunst, barras y/o widgets de eww
 . ${rice_dir}/Theme.sh
 
-# Fix cursor
+# Corrección del cursor
 xsetroot -cursor_name left_ptr
+
 
 

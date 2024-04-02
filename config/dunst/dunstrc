@@ -24,7 +24,7 @@
 
     # --- Text --- #
 
-    font = "Hack Nerd Font 11"
+    font = "JetBrainsMono Nerd Font Mono 13"
     line_height = 0
     markup = full
     format = "<b>%a</b>\n%s"
@@ -46,7 +46,7 @@
     # --- History --- #
 
     sticky_history = yes
-    history_length = 100
+    history_length = 10
 
     # --- Misc/Advanced --- #
 
@@ -55,7 +55,7 @@
     always_run_script = false
     title = Dunst
     class = Dunst
-    corner_radius = 0
+    corner_radius = 12
     ignore_dbusclose = false
 
     # --- Legacy --- #
@@ -105,4 +105,5 @@
 
 [battery]
     appname = "Power Warning"
-
+[Brightness]
+    appname = "Brightness"

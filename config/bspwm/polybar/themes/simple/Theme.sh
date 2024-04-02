@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Set bspwm configuration
 set_bspwm_config() {
     bspc config border_width 2
@@ -10,7 +12,7 @@ set_bspwm_config() {
 
 # Launch the bar
 launch_bars() {
-	
+	pgrep -x polybar && pkill -x polybar
 	for mon in $(polybar --list-monitors | cut -d":" -f1); do
 		MONITOR=$mon polybar -q simple-bar -c ${rice_dir}/config.ini &
 	done
