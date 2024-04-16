@@ -44,3 +44,16 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # GOOGLE PATH FOR FLUTTER
 alias google-chrome="google-chrome-stable"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+# disable touchpad
+
+#xinput disable 13
+
+
+PATH=~/.console-ninja/.bin:$PATH

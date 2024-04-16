@@ -1,4 +1,5 @@
 #!/bin/bash
 #kitty &
-xmodmap .Xmodmap
-~/.keymod/wls-key.sh
+#temporal disable mtouchpad
+xinput disable 13
+

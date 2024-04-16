@@ -1,454 +1,181 @@
 /home/shidox/.xprofile:4: no existe el fichero o el directorio: /home/shidox/.keymod/wls-key.sh
 xrdb: colon missing on line 54, ignoring line
-rule -a: Not enough arguments.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprUse :hover instead.
-ecated. Use :hover instead.
-
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is depr
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. ecated. Use :hover instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is depr
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. ecated. Use :hover instead.
 Use :hover instead.
 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecatdeprecated. Use :disabled instead.
-ed. Use :disabled instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is depr
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. ecated. Use :hover instead.
+Use :hover instead.
 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecatdeprecated. Use :disabled instead.
-ed. Use :disabled instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.284: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.285: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.285: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:648): Gtk-WARNING **: 23:09:20.285: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce-polkit:655): Gtk-WARNING **: 23:09:20.285: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:648): xfce4-power-manager-WARNING **: 23:09:21.632: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-** (xfce4-power-manager:648): WARNING **: 23:09:25.842: could not get output property
-[092 23:09:26.922272] Ignoring unknown config key: border_radius
-[092 23:09:26.922464] Ignoring unknown config key: columns
-[092 23:09:26.922564] Ignoring unknown config key: windows_padding_width
-[092 23:09:26.923253] Ignoring unknown config key: format
-[092 23:09:26.924563] Ignoring unknown config key: kitty
-rule -a: Not enough arguments.
+(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.256: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.256: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:662): xfce4-power-manager-WARNING **: 21:36:15.779: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.256: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+** (xfce4-power-manager:662): WARNING **: 21:36:19.470: could not get output property
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.256: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.508: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.256: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.508: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.256: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.257: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:3839): Gtk-WARNING **: 23:13:03.257: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/simple/config.ini:87: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=8;2"' of key 'font-4' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-rule -a: Not enough arguments.
-feh WARNING: /home/shidox/Wallpapers/wallpaper - Does not look like an image (magic bytes missing)
-feh ERROR: Unable to load image /home/shidox/Wallpapers/wallpaper
+(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.779: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.779: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.780: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+[1150:0402/213656.875116:ERROR:object_proxy.cc(577)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: La interfaz «org.freedesktop.portal.FileChooser» no existe
+[1150:0402/213656.875180:ERROR:select_file_dialog_linux_portal.cc(280)] Failed to read portal version property
+[91m[main 2024-04-03T02:37:01.797Z][0m [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+[91m[main 2024-04-03T02:37:01.798Z][0m [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+[91m[main 2024-04-03T02:37:02.265Z][0m [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+[91m[main 2024-04-03T02:37:02.266Z][0m Error: SQLITE_CANTOPEN: unable to open database file
+[91m[main 2024-04-03T02:37:10.080Z][0m No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
+[91m[main 2024-04-03T02:37:20.317Z][0m ptyHost was unable to resolve shell environment Error: No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
+    at Timeout.<anonymous> (/tmp/.mount_cursorAGe7cw/resources/app/out/vs/code/electron-main/main.js:65:4270)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.780: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(process:2248): GLib-CRITICAL **: 21:38:11.822: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.780: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.780: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.780: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:4441): Gtk-WARNING **: 23:13:57.780: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/simple/config.ini:87: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=8;2"' of key 'font-4' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-rule -a: Not enough arguments.
+(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.029: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[2277, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+[91m[main 2024-04-03T02:38:16.434Z][0m ptyHost was unable to resolve shell environment Error: No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
+    at Timeout.<anonymous> (/tmp/.mount_cursorAGe7cw/resources/app/out/vs/code/electron-main/main.js:65:4270)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[91m[main 2024-04-03T02:38:25.055Z][0m ptyHost was unable to resolve shell environment Error: No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
+    at Timeout.<anonymous> (/tmp/.mount_cursorAGe7cw/resources/app/out/vs/code/electron-main/main.js:65:4270)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Warning: vkCreateInstance: Found no drivers!
+Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
+    at CheckVkSuccessImpl (../../third_party/dawn/src/dawn/native/vulkan/VulkanError.cpp:88)
+    at CreateVkInstance (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:458)
+    at Initialize (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:344)
+    at Create (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:266)
+    at operator() (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:521)
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[1280:0402/213857.286407:ERROR:gl_display.cc(520)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.1) is greater than max supported (3, 0).
+Warning: eglCreateContext failed with EGL_BAD_ATTRIBUTE
+    at CheckEGL (../../third_party/dawn/src/dawn/native/opengl/UtilsEGL.cpp:71)
+    at Create (../../third_party/dawn/src/dawn/native/opengl/ContextEGL.cpp:88)
+    at Create (../../third_party/dawn/src/dawn/native/opengl/PhysicalDeviceGL.cpp:97)
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
 
-(xfce4-power-manager:5151): Gtk-WARNING **: 23:15:01.030: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/simple/config.ini:87: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=8;2"' of key 'font-4' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-polybar|error: Invalid value for "module/right.content-padding", using default value (reason: stof)
-rule -a: Not enough arguments.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
 
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.639: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.639: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.639: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.639: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.640: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.640: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.640: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:5251): Gtk-WARNING **: 23:15:51.640: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-rule -a: Not enough arguments.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.254: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7070): Gtk-WARNING **: 23:18:31.255: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-rule -a: Not enough arguments.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7404): Gtk-WARNING **: 23:18:55.514: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.616: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.617: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.617: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.617: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.617: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.617: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.617: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:7950): Gtk-WARNING **: 23:19:32.618: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.014: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.014: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.014: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.014: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.015: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.015: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.015: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:8077): Gtk-WARNING **: 23:19:36.015: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 18 was not found when attempting to remove it
-
-(process:15593): GLib-CRITICAL **: 23:30:34.472: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.441: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.441: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.442: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.442: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.442: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.442: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.442: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[15609, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:15609): Gtk-WARNING **: 23:30:35.443: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-CRITICAL: Source ID 44 was not found when attempting to remove it
-CRITICAL: Source ID 54 was not found when attempting to remove it
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18765): Gtk-WARNING **: 23:34:23.346: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.724: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.724: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.725: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.725: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.725: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.725: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.725: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:18942): Gtk-WARNING **: 23:34:29.725: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-CRITICAL: Source ID 16 was not found when attempting to remove it
-zsh:1: command not found: notify-reload
+(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.712: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+[093 21:44:58.041782] Ignoring unknown config key: border_radius
+[093 21:44:58.041978] Ignoring unknown config key: columns
+[093 21:44:58.042080] Ignoring unknown config key: windows_padding_width
+[093 21:44:58.042813] Ignoring unknown config key: format
+[093 21:44:58.044161] Ignoring unknown config key: kitty
 CRITICAL: Source ID 21 was not found when attempting to remove it
-CRITICAL: Source ID 45 was not found when attempting to remove it
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.983: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.259: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.259: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.259: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.260: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.260: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.260: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.261: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
 
-(xfce4-power-manager:21941): Gtk-WARNING **: 23:38:26.984: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.941: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.941: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.941: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.941: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.941: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.941: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.942: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22067): Gtk-WARNING **: 23:38:28.942: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.749: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.749: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.749: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.749: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.749: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.750: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.750: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:22443): Gtk-WARNING **: 23:38:50.750: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-CRITICAL: Source ID 16 was not found when attempting to remove it
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 21 was not found when attempting to remove it
-CRITICAL: Source ID 26 was not found when attempting to remove it
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.904: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:26050): Gtk-WARNING **: 23:43:52.905: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-CRITICAL: Source ID 16 was not found when attempting to remove it
-CRITICAL: Source ID 21 was not found when attempting to remove it
-CRITICAL: Source ID 31 was not found when attempting to remove it
-CRITICAL: Source ID 36 was not found when attempting to remove it
-CRITICAL: Source ID 41 was not found when attempting to remove it
-feh WARNING: /home/shidox/Wallpapers/wallpaper - Does not look like an image (magic bytes missing)
-feh ERROR: Unable to load image /home/shidox/Wallpapers/wallpaper
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.867: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:28688): Gtk-WARNING **: 23:47:26.868: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
+(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.261: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
 WARNING: No icon found in path: 'dialog-information'
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.062: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(process:11376): GLib-CRITICAL **: 21:50:04.568: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+** Message: 21:50:07.222: flatpak_plugin.vala:393: refreshing flathub appstream data
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.062: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(pamac-manager:11433): Gtk-WARNING **: 21:52:55.466: Not a supported version of the OpenURI portal: 0
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.062: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:16961): Gtk-WARNING **: 21:52:55.700: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.062: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:16961): Gtk-WARNING **: 21:52:55.700: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.063: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.063: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.063: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:28936): Gtk-WARNING **: 23:47:42.063: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 16 was not found when attempting to remove it
-feh WARNING: /home/shidox/Wallpapers/wallpaper - Does not look like an image (magic bytes missing)
-feh ERROR: Unable to load image /home/shidox/Wallpapers/wallpaper
+(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+[16961, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
 
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:29821): Gtk-WARNING **: 23:48:58.782: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-WARNING: No icon found in path: 'dialog-information'
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.001: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.001: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.001: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.001: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.001: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.001: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.002: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:31693): Gtk-WARNING **: 23:51:45.002: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 16 was not found when attempting to remove it
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-
-(xfce4-power-manager:32267): Gtk-WARNING **: 23:52:29.247: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-polybar|error: /home/shidox/.config/bspwm/polybar/themes/rey/config.ini:62: Value '"Material\-Design\-Iconic\-Font:style=Design-Iconic-Font:size=14;4"' of key 'font-3' contains one or more unescaped backslashes, please prepend them with the backslash escape character.
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
-CRITICAL: Source ID 16 was not found when attempting to remove it
-[092 23:56:22.134820] Ignoring unknown config key: border_radius
-[092 23:56:22.134931] Ignoring unknown config key: columns
-[092 23:56:22.134985] Ignoring unknown config key: windows_padding_width
-[092 23:56:22.135378] Ignoring unknown config key: format
-[092 23:56:22.136069] Ignoring unknown config key: kitty
+(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.

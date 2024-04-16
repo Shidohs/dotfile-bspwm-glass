@@ -23,6 +23,12 @@ application/x-extension-html=firefox.desktop
 application/x-extension-shtml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
+x-scheme-handler/magnet=freedownloadmanager_magnet_up.desktop
+application/x-bittorrent=freedownloadmanager_torrent.desktop
+application/x-trash=geany.desktop
+inode/symlink=geany.desktop
+font/ttf=org.gnome.FontManager.desktop
 
 [Added Associations]
 image/jpeg=ristretto.desktop 
@@ -56,6 +62,10 @@ application/x-extension-shtml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 application/yaml=geany.desktop;
+text/html=geany.desktop;
+application/x-trash=geany.desktop;
+inode/symlink=geany.desktop;
+font/ttf=org.gnome.FontManager.desktop;
 
 [Removed Associations]
 x-scheme-handler/http=chromium-browser.desktop  ;

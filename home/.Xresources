@@ -57,5 +57,4 @@ urxvt.perl-ext-common: default,resize-font
 URxvt.keysym.C-minus:    resize-font:smaller
 URxvt.keysym.C-equal:    resize-font:bigger
 URxvt.keysym.C-plus:     resize-font:reset
-xmodmap .Xmodmap
 

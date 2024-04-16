@@ -24,7 +24,7 @@ alt + Tab
 
 # Apagar, reiniciar, cerrar sesión, bloquear, cerrar app
 ctrl + super + alt + {p,r,q,l,k}  
-    {systemctl poweroff, systemctl reboot, bspc quit, physlock -d, xkill}
+    { systemctl poweroff, systemctl reboot, bspc quit, physlock -d, xkill}
 
 
 ##############################################
@@ -116,7 +116,7 @@ super + {Down,Up}
     bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5))
 
 super + shift + {Down,Up}
-    bspc config window_gap $(($(bspc config window_gap) {-,+} 5))
+    bspc config window_gap $(((bspc config window_gap) {-,+} 5))
 
 
 ##############################################
@@ -195,10 +195,7 @@ XF86MonBrightness{Up,Down}
 
 # Volumen
 XF86Audio{RaiseVolume,LowerVolume,Mute}
-    sh ~/.config/bspwm/scripts/system/volume {RaiseVolume,LowerVolume}
-
-XF86AudioMute
-    pactl set-sink-mute @DEFAULT_SINK@ toggle
+    sh ~/.config/bspwm/scripts/system/volumen {RaiseVolume,LowerVolume,Mute}
 
 # Reproducción multimedia 
 # Controles multimedia  

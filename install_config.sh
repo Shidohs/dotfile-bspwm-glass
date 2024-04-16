@@ -1,24 +1,30 @@
 #!/bin/bash
 
-cd 
 # hola, apartir de aqui hare una guia completa de como instalar mi config por completo
 echo "ACTUALIZANDO SISTEMA"
 echo 'Verificando si tienes el sistema actualizado'
-# Descomenta la siguiente línea si deseas actualizar el sistema
 sudo pacman -Syu
 
 echo "----- INSTALANDO YAY -----"
 #configurando yay y personalizando la terminal
 
-if  pacman -Qq "yay" &> /dev/null ; then
-    echo "yay: instalado"
+# Comprueba si yay está instalado
+if pacman -Qq "yay" &> /dev/null; then
+    echo "yay está instalado."
 else
-    sudo pacman -S --noconfirm base-devel zsh git
-    git clone https://aur.archlinux.org/yay.git /opt/yay
-    sudo chown -R $USER: /opt/yay 
-    cd /opt/yay
-    makepkg -si
+    echo "yay no está instalado. Instalando..."
 
+    # Instala los paquetes requeridos
+    sudo pacman -S --noconfirm base-devel zsh git
+
+    # Clona el repositorio AUR de yay
+    git clone https://aur.archlinux.org/yay.git /opt/yay
+    sudo chown -R "$USER": /opt/yay
+    
+    # Compila e instala yay
+    cd /opt/yay || exit
+    makepkg -si
+    echo "yay instalado correctamente."
 fi
 
 echo "----- INSTALANDO PROGRAMAS REQUERIDOS -----"
@@ -31,20 +37,19 @@ file=("thunar")
 web=("firefox" "google-chrome")
 game=("wine" "wine-mono" "winetricks")
 multimedia=("viewnior" "celluloid" "ristretto")
-
 otros=("picom-ftlabs-git" "zsh" 
 "font-manager" "plocate" "bat" "betterlockscreen"  
 "blueman" "brightnessctl" "btop" "neofetch" "xclip" "curl" "python"  
 "dunst" "ffmpeg" "fzf" "glow" "gparted" "grub-customizer" "gtk" "gtk2" "gtk3"  
 "gtk4" "imagemagick" "ocs-url" "rsync")
-
 sistema=( "exa" "jgmenu" "dmenu" "bspwm" "acpi" "acpid" "lxappearance" "polybar" "xautolock" "sddm" "sxhkd" "tree")
-
-fonts=( "candy-icons-git" "fontdownloader" "ttf-fira-code" "ttf-firacode-nerd" "ttf-font-awesome" "ttf-jetbrains-mono-nerd" "ttf-nerd-fonts-symbols" "ttf-victor-mono-nerd" "ttf-material-design-iconic-font" "ttf-material-design-icons-desktop-git" "")
+fonts=( "candy-icons-git" "fontdownloader" "ttf-firacode" "ttf-firacode-nerd" "ttf-font-awesome" "ttf-jetbrains-mono-nerd" "ttf-nerd-fonts-symbols" "ttf-victor-mono-nerd" "ttf-material-design-iconic-font" "ttf-material-design-icons-desktop-git" "")
 
 
 
 # Función para instalar 
+
+echo "INSTALANDO PROGRAMAS NECESARIOS"
 check_and_install() {
   if ! pacman -Qq "$1" >/dev/null; then
     if sudo pacman -S --noconfirm "$1" >/dev/null; then
@@ -55,7 +60,6 @@ check_and_install() {
     fi
   fi
 }
-
 # Comprobar programas e instalar si no existen
 for programa in "${terminal[@]}" "${code[@]}" "${file[@]}" "${web[@]}" "${game[@]}" "${multimedia[@]}" "${otros[@]}" "${sistema[@]}" "${fonts[@]}"; do
   check_and_install "$programa"
@@ -64,13 +68,17 @@ done
 echo "Programas Instalados Correctamente"
 
 # creando directorio de repos
-if test -d "~/repos" ; then
-    echo "carpeta: 'repos', ya existe"
-    cd ~/repos
+# Verifica si la carpeta "repos" existe
+if [ ! -d "$HOME/repos" ]; then
+  # Si no existe, la crea
+  echo "Carpeta 'repos' no existe. Creando..."
+  mkdir -p "$HOME/repos"
+  cd "$HOME/repos" || exit
+  echo "Carpeta 'repos' creada correctamente."
 else
-    mkdir -p ~/repos
-    cd ~/repos
-    echo "carpeta:'repos' creada"
+  # Si existe, navega a ella
+  cd "$HOME/repos" || exit
+  echo "Carpeta 'repos' encontrada. Navegando a ella..."
 fi
 
 #clonar repo
@@ -79,7 +87,7 @@ echo "----- CLONANDO REPO -----"
 dotfile_directory="$HOME/repos/dotfile-i3-bspwm"
 
 if [ -d "$dotfile_directory" ] ; then
-    if [ "$(ls -A $dotfile_directory)" ]; then
+    if [ "$(ls -A "$dotfile_directory")" ]; then
         echo "El directorio $dotfile_directory ya existe y no está vacío. No se realizará la clonación."
     else
         echo "El dotfile-i3-bspwm ya está instalado en $dotfile_directory."
@@ -95,20 +103,28 @@ chsh -s /bin/zsh
 
 echo "----- MODIFICANDO TERMINAL -----"
 # copiar config de zshrc
-if test -e "~/.zshrc"; then
-    cd ~/repos/dotfile-i3-bspwm 
-    cp -r home/.zshrc ~/
-
+echo "Moviendo archivo .zshrc"
+ZSHRC_FILE="$HOME/.zshrc"
+ZSHRC_BACKUP="$HOME/.zshrc.bak"
+ZSHRC_DEST="$HOME/repos/dotfile-i3-bspwm/home/.zshrc"
+# Comprueba si el archivo .zshrc existe
+if [ -e "$ZSHRC_FILE" ]; then
+    echo "El archivo .zshrc existe, creando un respaldo..."
+    cp "$ZSHRC_FILE" "$ZSHRC_BACKUP"
+    echo "El archivo .zshrc ha sido respaldado en $ZSHRC_BACKUP."
+    echo "----------------------------------------------"
+    cp -r "$ZSHRC_DEST" "$ZSHRC_FILE" || exit
+    echo "El archivo .zshrc ha sido modificado."
 else
+    echo "El archivo .zshrc no existe, actualizando..."
+    cp -r "$ZSHRC_DEST" "$ZSHRC_FILE"
+    echo "El archivo .zshrc ha sido modificado."
+fi
 
-    echo "archivo existe,comenzare a respaldar:zshrc"
-    cp ~/.zshrc ~/.zshrc.bak
-    echo "zshrc modificado"
-    cp -r ~/repos/dotfile-i3-bspwm/home/.zshrc ~/
 
-fi 
-cd dotfile-i3-bspwm
+
 echo "----- INSTALAND OHMYZSH -----"
+cd dotfile-i3-bspwm || exit
 #instalar y configurar ohmyzsh
 if [ ! -f ~/.oh-my-zsh/oh-my-zsh.sh ]; then
   echo "No está instalado Oh My Zsh, comenzará la instalación"
@@ -117,8 +133,13 @@ else
   echo "Oh My Zsh ya está instalado"
 fi
 
-# tema pówerlevel10k
+echo "creando enlace para root de'Oh My Zsh'"
+# Instalar oh-my-zsh como root
+sudo ln -s "$HOME"/.oh-my-zsh /root/
+echo "Enlazado"
 
+# tema pówerlevel10k
+echo "INSTALANDO TEMA POWERLEVEL10K"
 if [ ! -d "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" ]; then
     echo "powerlevel10k no está instalado, comenzará a instalarse"
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -130,49 +151,17 @@ else
 	cp ~/repos/dotfile-i3-bspwm/home/.p10k.zsh ~/
 fi
 
-# hacer este proceso en root
+echo "---------------------"
+echo "----- HACER ESTE PROCESO EN ROOT -----"
 
-# Instalar oh-my-zsh como root
-if [ ! -f "/root/.oh-my-zsh/oh-my-zsh.sh" ]; then
-
-  echo "Instalando oh-my-zsh para root..."
-  
-  sudo -u root sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  
-else
-  
-  echo "oh-my-zsh ya está instalado para root"
-  
-fi
-
-# Instalar powerlevel10k para root
-if [ ! -d "/root/.oh-my-zsh/custom/themes/powerlevel10k" ]; then
-
-  echo "Instalando powerlevel10k para root..."
-  
-  sudo -u root git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /root/.oh-my-zsh/custom/themes/powerlevel10k
-  
-  sudo ln -s ~/p10k.zsh /root/
-
-  
-else
-  
-  echo "powerlevel10k ya está instalado para root"
-  
-  sudo ln -s ~/.p10k.zsh /root/
-
-  
-fi
-
+echo "creando enlace para root de'aliases y .zshrc'"
 # ROOT
-
 sudo ln -s ~/.zshrc /root/
 sudo ln -s ~/.aliases /root/
 
 #Plugins
-echo "----- INSTALANDO PLUGINS -----"
+echo "----- INSTALANDO PLUGINS EN USER -----"
 echo "Instalando plugins de ohmyzsh"
-
 # Verificar si los repositorios fzf-tab, zsh-syntax-highlighting y zsh-autosuggestions están clonados
 if [ -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab" ] && 
    [ -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting" ] &&
@@ -186,7 +175,16 @@ else
 fi
 
 # configurando sddm como gestor predeterminado
+
 echo "----- CONFIGURANDO SDDM -----"
+
+echo "Desactivando su DM predeterminado"
+sudo systemctl disable $(systemctl list-unit-files --type=service --state=enabled | grep 'dm\.service' | awk '{print $1}')
+echo "Activar SDDM como display manager (DM) predeterminado"
+sudo systemctl enable sddm.service
+
+echo "SDDM activado como DM predeterminado"
+
 sddm_theme_dir="$HOME/repos/dotfile-i3-bspwm/sddm-theme/themes/"
 new_theme="corners"
 #depedencia
@@ -213,7 +211,7 @@ if [ -d "/usr/share/sddm/themes" ]; then
         if [ ! -d "$sddm_theme_dest" ]; then
             sudo mkdir -p "$sddm_theme_dest"
         fi
-        sudo rsync -av "$sddm_theme_dir"/* "$sddm_theme_dest"
+        sudo rsync -av "$sddm_theme_dir" "$sddm_theme_dest"
 
         # Leer el archivo /etc/sddm.conf
         if grep -q '^Current=' /etc/sddm.conf; then
@@ -233,6 +231,7 @@ else
     echo "El directorio /usr/share/sddm/themes no existe"
 fi
 
+echo "SDDM configurado"
 
 # instalando el repo chaotic
 echo "----- INSTALANDO REPO CHAOTIC_EUR -----"
@@ -308,9 +307,12 @@ cp -r ~/repos/dotfile-i3-bspwm/Wallpaper ~/
 echo "COPIANDO TODO .CONFIG"
 rsync -av ~/repos/dotfile-i3-bspwm/config/ ~/.config
 
+#Iniciando el servicio de bluetooth
 sudo systemctl start bluetooth
 sudo systemctl enable bluetooth
 
+
+# ln para los demas archivos
+#echo "CREANDO ENLACES"
+
 echo "INSTALACION COMPLETADA"
-
-

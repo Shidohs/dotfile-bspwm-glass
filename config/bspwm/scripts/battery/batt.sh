@@ -42,7 +42,7 @@ screen_battery() {
  # pending-charge: es un estado donde detecta bateria pero no carga
   if [ "$status" = "pending-charge" ]; then
     icon=" 󱃍"
-    echo "$icon"]
+    echo "$icon"
   # si el estato esta vacio imprimir el icono de solo cargando
   elif [ -z "$status" ]; then
     echo "$icon"
