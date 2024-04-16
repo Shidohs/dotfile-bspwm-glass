@@ -41,4 +41,5 @@ chmod +x install_config.sh
 ## Screenshots
 
 ![Preview](screenshot/bspwm.png)
-
+![Preview](screenshot/bspwm2.png)
+![Preview](screenshot/bspwm3.png)
