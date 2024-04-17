@@ -1,16 +1,18 @@
-![Logo](https://media.jvt.me/8370d97494.png)
+![Logo](screenshot/icon.jpg)
 
 # Scripts De Instalacion
 
-En este scripts se instalará automáticamente todo lo necesitarío para su funcionamiento, debes tomar en cuenta que esta hecho para una instalación de 0 en arch, así que cualquier configuración que tengas se puede perder.
+En este scripts se instalará automáticamente todo lo necesitarío para su funcionamiento, debes tomar en cuenta que esta hecho para una instalación de 0 en arch, así que cualquier configuración que tengas se puede perder, aunque algunas cositas se respaldan pero no todas.
 
 ## Instalacion
 
 Algunas cosas no se respaldan, ASÍ QUE TEN CUIDADO.
 Para ejecutar el scripts:
 
+- cosas que se respaldan son: .zshrc
+
 ```bash
-  curl https://raw.githubusercontent.com/Shidohs/dotfile-i3-bspwm/main/install_config.sh > install_config.sh
+  curl https://raw.githubusercontent.com/Shidohs/dotfile-bspwm-glass/main/install_config.sh > install_config.sh
 chmod +x install_config.sh
 
 ```

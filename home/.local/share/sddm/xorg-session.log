@@ -1,181 +1,252 @@
-/home/shidox/.xprofile:4: no existe el fichero o el directorio: /home/shidox/.keymod/wls-key.sh
-xrdb: colon missing on line 54, ignoring line
+/home/shidox/.config/bspwm/modules/autostart.conf: línea 24: run: orden no encontrada
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is depr
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. ecated. Use :hover instead.
-Use :hover instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.012: Theme parsing error: gtk.css:95:30: '' is not a valid color name
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is depr
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. ecated. Use :hover instead.
-Use :hover instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.230: Theme parsing error: gtk.css:95:44: Expected a valid selector
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.230: Theme parsing error: gtk.css:96:46: Expected a valid selector
 
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.918: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.230: Theme parsing error: gtk.css:97:41: Expected a valid selector
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:98:47: Expected a valid selector
 
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:99:49: Expected a valid selector
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:100:44: Expected a valid selector
 
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:105:41: Expected a valid selector
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:106:43: Expected a valid selector
 
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:107:47: Expected a valid selector
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:108:49: Expected a valid selector
 
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:109:42: Expected a valid selector
 
-(xfce4-power-manager:662): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:110:44: Expected a valid selector
 
-(xfce-polkit:672): Gtk-WARNING **: 21:36:13.919: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:112:60: Expected a valid selector
 
-(xfce4-power-manager:662): xfce4-power-manager-WARNING **: 21:36:15.779: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:113:62: Expected a valid selector
 
-** (xfce4-power-manager:662): WARNING **: 21:36:19.470: could not get output property
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:116:45: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.508: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:117:55: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.508: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:119:55: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:120:57: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:121:56: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce-polkit:951): Gtk-WARNING **: 13:31:36.231: Theme parsing error: gtk.css:122:58: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.315: Theme parsing error: gtk.css:95:30: '' is not a valid color name
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:95:44: Expected a valid selector
 
-(cursor:1150): Gtk-WARNING **: 21:36:55.509: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-[1150:0402/213656.875116:ERROR:object_proxy.cc(577)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: La interfaz «org.freedesktop.portal.FileChooser» no existe
-[1150:0402/213656.875180:ERROR:select_file_dialog_linux_portal.cc(280)] Failed to read portal version property
-[91m[main 2024-04-03T02:37:01.797Z][0m [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
-[91m[main 2024-04-03T02:37:01.798Z][0m [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
-[91m[main 2024-04-03T02:37:02.265Z][0m [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
-[91m[main 2024-04-03T02:37:02.266Z][0m Error: SQLITE_CANTOPEN: unable to open database file
-[91m[main 2024-04-03T02:37:10.080Z][0m No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
-[91m[main 2024-04-03T02:37:20.317Z][0m ptyHost was unable to resolve shell environment Error: No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
-    at Timeout.<anonymous> (/tmp/.mount_cursorAGe7cw/resources/app/out/vs/code/electron-main/main.js:65:4270)
-    at listOnTimeout (node:internal/timers:569:17)
-    at process.processTimers (node:internal/timers:512:7)
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:96:46: Expected a valid selector
 
-(process:2248): GLib-CRITICAL **: 21:38:11.822: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:97:41: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:98:47: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:99:49: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:100:44: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.757: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:105:41: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:106:43: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:107:47: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[2277, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:108:49: Expected a valid selector
 
-(firefox:2277): Gtk-WARNING **: 21:38:12.758: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-[91m[main 2024-04-03T02:38:16.434Z][0m ptyHost was unable to resolve shell environment Error: No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
-    at Timeout.<anonymous> (/tmp/.mount_cursorAGe7cw/resources/app/out/vs/code/electron-main/main.js:65:4270)
-    at listOnTimeout (node:internal/timers:569:17)
-    at process.processTimers (node:internal/timers:512:7)
-[91m[main 2024-04-03T02:38:25.055Z][0m ptyHost was unable to resolve shell environment Error: No se puede resolver el entorno de shell en un tiempo razonable. Revise la configuración del shell y reinicie.
-    at Timeout.<anonymous> (/tmp/.mount_cursorAGe7cw/resources/app/out/vs/code/electron-main/main.js:65:4270)
-    at listOnTimeout (node:internal/timers:569:17)
-    at process.processTimers (node:internal/timers:512:7)
-Warning: vkCreateInstance: Found no drivers!
-Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
-    at CheckVkSuccessImpl (../../third_party/dawn/src/dawn/native/vulkan/VulkanError.cpp:88)
-    at CreateVkInstance (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:458)
-    at Initialize (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:344)
-    at Create (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:266)
-    at operator() (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:521)
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:109:42: Expected a valid selector
 
-[1280:0402/213857.286407:ERROR:gl_display.cc(520)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.1) is greater than max supported (3, 0).
-Warning: eglCreateContext failed with EGL_BAD_ATTRIBUTE
-    at CheckEGL (../../third_party/dawn/src/dawn/native/opengl/UtilsEGL.cpp:71)
-    at Create (../../third_party/dawn/src/dawn/native/opengl/ContextEGL.cpp:88)
-    at Create (../../third_party/dawn/src/dawn/native/opengl/PhysicalDeviceGL.cpp:97)
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:110:44: Expected a valid selector
 
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:112:60: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:113:62: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:116:45: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:117:55: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:119:55: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:120:57: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:121:56: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.711: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(xfce4-power-manager:948): Gtk-WARNING **: 13:31:37.316: Theme parsing error: gtk.css:122:58: Expected a valid selector
 
-(xfce4-power-manager:6126): Gtk-WARNING **: 21:43:01.712: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
-[093 21:44:58.041782] Ignoring unknown config key: border_radius
-[093 21:44:58.041978] Ignoring unknown config key: columns
-[093 21:44:58.042080] Ignoring unknown config key: windows_padding_width
-[093 21:44:58.042813] Ignoring unknown config key: format
-[093 21:44:58.044161] Ignoring unknown config key: kitty
-CRITICAL: Source ID 21 was not found when attempting to remove it
+(xfce4-power-manager:948): xfce4-power-manager-WARNING **: 13:31:38.247: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.259: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
+** (xfce4-power-manager:948): WARNING **: 13:31:42.164: could not get output property
+[107 13:32:51.991717] Ignoring unknown config key: border_radius
+[107 13:32:51.991819] Ignoring unknown config key: columns
+[107 13:32:51.991888] Ignoring unknown config key: windows_padding_width
+[107 13:32:51.992272] Ignoring unknown config key: format
+[107 13:32:51.992967] Ignoring unknown config key: kitty
+[107 13:33:26.151726] Ignoring unknown config key: border_radius
+[107 13:33:26.151831] Ignoring unknown config key: columns
+[107 13:33:26.151914] Ignoring unknown config key: windows_padding_width
+[107 13:33:26.152337] Ignoring unknown config key: format
+[107 13:33:26.153082] Ignoring unknown config key: kitty
+zsh:1: command not found: scrot
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.259: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.336: Theme parsing error: gtk.css:95:30: '' is not a valid color name
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.259: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.336: Theme parsing error: gtk.css:95:44: Expected a valid selector
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.260: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.336: Theme parsing error: gtk.css:96:46: Expected a valid selector
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.260: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.336: Theme parsing error: gtk.css:97:41: Expected a valid selector
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.260: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.336: Theme parsing error: gtk.css:98:47: Expected a valid selector
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.261: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:99:49: Expected a valid selector
 
-(xfce4-power-manager:9140): Gtk-WARNING **: 21:47:05.261: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:100:44: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:105:41: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:106:43: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:107:47: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:108:49: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:109:42: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:110:44: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:112:60: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:113:62: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:116:45: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:117:55: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:119:55: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:120:57: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:121:56: Expected a valid selector
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:34:49.337: Theme parsing error: gtk.css:122:58: Expected a valid selector
+
+(gnome-screenshot:4616): Handy-WARNING **: 13:34:50.051: Using GtkSettings:gtk-application-prefer-dark-theme together with HdyStyleManager is unsupported. Please use HdyStyleManager:color-scheme instead.
+** Message: 13:34:57.387: Unable to use GNOME Shell's builtin screenshot interface, resorting to fallback X11.
+** Message: 13:35:50.088: Unable to use GNOME Shell's builtin screenshot interface, resorting to fallback X11.
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:50.269: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:50.269: Negative content width -23 (allocation 1, extents 12x12) while allocating gadget (node label, owner GtkLabel)
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.570: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.587: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.605: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.639: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.656: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.673: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.690: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.708: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.726: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.743: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.760: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.777: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.795: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.813: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:52.831: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:53.520: gtk_widget_size_allocate(): attempt to allocate widget with width -150 and height 20
+
+(gnome-screenshot:4616): Gtk-WARNING **: 13:35:53.520: Negative content width -23 (allocation 1, extents 12x12) while allocating gadget (node label, owner GtkLabel)
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:95:30: '' is not a valid color name
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:95:44: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:96:46: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:97:41: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:98:47: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:99:49: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:100:44: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:105:41: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:106:43: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:107:47: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:108:49: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:109:42: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:110:44: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:112:60: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:113:62: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:116:45: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:117:55: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:119:55: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.404: Theme parsing error: gtk.css:120:57: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.405: Theme parsing error: gtk.css:121:56: Expected a valid selector
+
+(gnome-screenshot:5809): Gtk-WARNING **: 13:36:08.405: Theme parsing error: gtk.css:122:58: Expected a valid selector
+
+(gnome-screenshot:5809): Handy-WARNING **: 13:36:08.547: Using GtkSettings:gtk-application-prefer-dark-theme together with HdyStyleManager is unsupported. Please use HdyStyleManager:color-scheme instead.
+** Message: 13:36:27.919: Unable to use GNOME Shell's builtin screenshot interface, resorting to fallback X11.
 WARNING: No icon found in path: 'dialog-information'
 
-(process:11376): GLib-CRITICAL **: 21:50:04.568: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
-** Message: 21:50:07.222: flatpak_plugin.vala:393: refreshing flathub appstream data
+(process:7122): Helper-WARNING **: 13:37:38.486: Failed to set lock on pidfile: Rofi already running?
 
-(pamac-manager:11433): Gtk-WARNING **: 21:52:55.466: Not a supported version of the OpenURI portal: 0
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
+(process:7122): Helper-WARNING **: 13:37:38.486: Got error: -1 Función ioctl no apropiada para el dispositivo
 
-(firefox:16961): Gtk-WARNING **: 21:52:55.700: Theme parsing error: gtk.css:63:28: The :prelight pseudo-class is deprecated. Use :hover instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.700: Theme parsing error: gtk.css:73:35: The :prelight pseudo-class is deprecated. Use :hover instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:115:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:116:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:145:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:146:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:166:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
-[16961, Main Thread] WARNING: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.: 'glib warning', file /usr/src/debug/firefox/firefox-124.0.1/toolkit/xre/nsSigHandlers.cpp:187
-
-(firefox:16961): Gtk-WARNING **: 21:52:55.701: Theme parsing error: gtk.css:187:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+(process:7258): GLib-CRITICAL **: 13:37:49.825: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+Opción desconocida --enable-features=UseOzonePlatform
+WARNING: No icon found in path: 'dialog-information'
+CRITICAL: Source ID 20 was not found when attempting to remove it
+[107 13:52:42.881353] Ignoring unknown config key: border_radius
+[107 13:52:42.881469] Ignoring unknown config key: columns
+[107 13:52:42.881526] Ignoring unknown config key: windows_padding_width
+[107 13:52:42.881901] Ignoring unknown config key: format
+[107 13:52:42.882597] Ignoring unknown config key: kitty
+The server closed the connection.
+X connection to :0 broken (explicit kill or server shutdown).
+polybar|error: X connection error, terminating... (what: Socket, pipe or stream error)
+XIO:  fatal IO error 0 (Conseguido) on X server ":0"
+      after 9915 requests (9915 known processed) with 0 events remaining.
+XIO:  fatal IO error 0 (Conseguido) on X server ":0"
+      after 103491 requests (103491 known processed) with 0 events remaining.
+polybar|error: module/bspwm: Failed to connect to socket (reason: No such file or directory)
