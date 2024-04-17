@@ -39,6 +39,6 @@ chmod +x install_config.sh
 
 ## Acerca de
 
-- [@Shidohs](https://github.com/Shidohs)
-  Gracias a [adi1090x](https://github.com/adi1090x/rofi) por los temas de rofi
-  Gracias a [gh0stzk](https://github.com/gh0stzk/dotfiles) Por La Configuracion Base
+- AUTOR: [@Shidohs](https://github.com/Shidohs)
+- Gracias a [adi1090x](https://github.com/adi1090x/rofi) por los temas de rofi
+- Gracias a [gh0stzk](https://github.com/gh0stzk/dotfiles) Por La Configuracion Base
