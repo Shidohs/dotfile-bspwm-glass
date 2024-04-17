@@ -1,6 +1,8 @@
-![Logo](screenshot/icon.jpg){width=200px}
+# DOTFILE BSPWM
 
-# Scripts De Instalacion
+![Logo](screenshot/icon.jpg)
+
+## Scripts De Instalacion
 
 En este scripts se instalará automáticamente todo lo necesitarío para su funcionamiento, debes tomar en cuenta que esta hecho para una instalación de 0 en arch, así que cualquier configuración que tengas se puede perder, aunque algunas cositas se respaldan pero no todas.
 
