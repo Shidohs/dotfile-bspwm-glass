@@ -1,4 +1,4 @@
-![Logo](screenshot/icon.jpg)
+![Logo](screenshot/icon.jpg){width=200px}
 
 # Scripts De Instalacion
 
