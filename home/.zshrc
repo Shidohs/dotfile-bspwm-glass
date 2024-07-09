@@ -1,59 +1,46 @@
+# Exports
 export ZSH="$HOME/.oh-my-zsh/"
+export _JAVA_AWT_WM_NONREPARENTING=1
+export BUN_INSTALL="$HOME/.bun"
+export NVM_DIR="$HOME/.nvm"
 
+# Theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-export _JAVA_AWT_WM_NONREPARENTING=1
-
-
-# Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
+# History
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
+# Plugins
 plugins=(
-  fzf 
-  fzf-tab 
-  sudo 
-  bgnotify 
-  zsh-syntax-highlighting 
-  zsh-autosuggestions 
+  fzf
+  fzf-tab
+  sudo
+  bgnotify
+  zsh-syntax-highlighting
+  zsh-autosuggestions
   git
   command-not-found
 )
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
-
+#Source
 source $ZSH/oh-my-zsh.sh
 source $HOME/.p10k.zsh
 source $HOME/.aliases
-#path
-export PATH="$PATH:/opt/flutter/bin"
-export PATH="$PATH:bin"
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 # bun completions
 [ -s "/home/shidox/.bun/_bun" ] && source "/home/shidox/.bun/_bun"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-
+# Path
+export PATH="$PATH:/opt/flutter/bin"
+export PATH="$PATH:bin"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
-# GOOGLE PATH FOR FLUTTER
-alias google-chrome="google-chrome-stable"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-
-# disable touchpad
-
-#xinput disable 13
-
-
 PATH=~/.console-ninja/.bin:$PATH
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
