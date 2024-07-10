@@ -1,7 +1,9 @@
-# top 1: blood_moon,campbell
-
-import = ["~/.config/alacritty/themes/campbell.toml"]
+import = ["/home/shidox/.config/alacritty/night/colors.toml"]
 live_config_reload = true
+
+[class]
+general = "Alacritty"
+instance = "Alacritty"
 
 [colors]
 draw_bold_text_with_bright_colors = true
@@ -41,6 +43,13 @@ y = 0
 
 [mouse]
 hide_when_typing = true
+
+[mouse.double_click]
+threshold = 300
+
+[mouse.triple_click]
+threshold = 300
+
 [scrolling]
 history = 10000
 multiplier = 3
@@ -50,12 +59,12 @@ save_to_clipboard = true
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
 [shell]
-program = "/usr/bin/zsh"
+program = "/usr/bin/fish"
 
-
-#animation = "EaseOutExpo"
-#color = "#ffffff"
-#duration = 0.5
+[visual_bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 0.5
 
 [window]
 opacity = 0.8

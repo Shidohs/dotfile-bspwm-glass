@@ -1,8 +1,0 @@
-
-clear Lock
-clear  shift
-keycode 66 = a A a A
-keycode 62 = BackSpace NoSymbol BackSpace
-keycode 135 = Super_L
-keycode 118 = Escape
-keycode 105 = Escape
