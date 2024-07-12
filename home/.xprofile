@@ -1,5 +1,0 @@
-#!/bin/bash
-#kitty &
-#temporal disable mtouchpad
-xinput disable 13
-

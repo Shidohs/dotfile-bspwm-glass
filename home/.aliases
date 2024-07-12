@@ -1,4 +1,6 @@
 # General
+updates="$HOME/.config/waybar/scripts/system/pacman/pacman_system.sh"
+alias update="$updates"
 alias c="clear"
 alias q="exit"
 alias hd="hexdump -C"
@@ -17,26 +19,23 @@ alias reflesh="sudo reflector --verbose --latest 5 --sort rate --save /etc/pacma
 alias pcs="sudo pacman -S"
 alias pcr="sudo pacman -R"
 alias pcrs="sudo pacman -Rs"
-alias pcsyu="sudo pacman -Syu"
-alias pcsy="sudo pacman -Sy"
+alias pcsyu="sudo pacman -Syu && $updates"
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias mantenimiento="yay -Sc && sudo pacman -Scc"
-alias purga="sudo pacman -Rns $(pacman -Qtdq) ; sudo fstrim -av"
-alias update="yay -Syu"
+alias mantenimiento="yay -Sc && sudo pacman -Scc && $updates"
+alias purga="sudo pacman -Rns \$(pacman -Qtdq) && sudo fstrim -av"
 alias delete="sudo pacman -Rns"
 
 # Shortcuts
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
 
-# LS Aliases
-
+# LS Aliases on Exa
 alias ls='exa --icons --group-directories-first'
 alias l='exa -l --icons --group-directories-first'
 alias la='exa -a --icons --group-directories-first'
 alias lla='exa -la --icons --group-directories-first'
 alias lt='exa --tree --icons --group-directories-first'
-
+ # ON lsd
 #alias ll='lsd -lh --group-dirs=first'
 #alias la='lsd -a --group-dirs=first'
 #alias l='lsd --group-dirs=first'
@@ -44,5 +43,4 @@ alias lt='exa --tree --icons --group-directories-first'
 #alias ls='lsd --group-dirs=first'
 alias cat='bat'
 alias catn='/bin/cat'
-#alias catnl=''/bin/bat --paging=never"
 alias catnl='bat --paging=never'
