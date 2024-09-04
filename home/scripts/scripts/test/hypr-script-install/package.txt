@@ -1,2 +1,0 @@
-system = (yad fuzzel lsd fkill )
-
