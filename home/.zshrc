@@ -12,6 +12,9 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
+autoload -Uz compinit
+compinit
+
 # Plugins
 plugins=(
   fzf
@@ -22,6 +25,7 @@ plugins=(
   zsh-autosuggestions
   git
   command-not-found
+  poetry
 )
 
 #Source
@@ -39,8 +43,7 @@ export PATH="$PATH:/opt/flutter/bin"
 export PATH="$PATH:bin"
 export PATH="$BUN_INSTALL/bin:$PATH"
 PATH=~/.console-ninja/.bin:$PATH
-
-
+export PATH="$PATH:/var/lib/snapd/snap/bin"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

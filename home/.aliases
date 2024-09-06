@@ -17,6 +17,7 @@ alias reflesh="sudo reflector --verbose --latest 5 --sort rate --save /etc/pacma
 
 # Package Management (Pacman)
 alias pcs="sudo pacman -S"
+alias pcsy="sudo pacman -Sy"
 alias pcr="sudo pacman -R"
 alias pcrs="sudo pacman -Rs"
 alias pcsyu="sudo pacman -Syu && $updates"
@@ -28,19 +29,20 @@ alias delete="sudo pacman -Rns"
 # Shortcuts
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
+alias recursive="rsync -av --delete"
+# LS ALIASES
+alias ls='eza --icons --group-directories-first'
+alias l='eza -lh --icons --group-directories-first'
+alias la='eza -a --icons --group-directories-first'
+alias ll='eza -lha --icons --group-directories-first'
+alias lt='eza --tree --icons --group-directories-first'
+alias lg='eza -l --icons --group-directories-first --git'
+alias lm='eza -lh --icons --group-directories-first --sort=modified'
+alias lS='eza -lh --icons --group-directories-first --sort=size'
+alias lC='eza -lh --icons --group-directories-first --sort=created'
 
-# LS Aliases on Exa
-alias ls='exa --icons --group-directories-first'
-alias l='exa -l --icons --group-directories-first'
-alias la='exa -a --icons --group-directories-first'
-alias lla='exa -la --icons --group-directories-first'
-alias lt='exa --tree --icons --group-directories-first'
- # ON lsd
-#alias ll='lsd -lh --group-dirs=first'
-#alias la='lsd -a --group-dirs=first'
-#alias l='lsd --group-dirs=first'
-#alias lla='lsd -lha --group-dirs=first'
-#alias ls='lsd --group-dirs=first'
+
+
 alias cat='bat'
 alias catn='/bin/cat'
 alias catnl='bat --paging=never'

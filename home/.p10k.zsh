@@ -37,7 +37,8 @@
     vcs                   # git status
     command_execution_time
     context
-  )
+   
+)
 
   # The list of segments shown on the right. Fill it with less important segments.
   # Right prompt on the last prompt line (where you are typing your commands) gets
@@ -45,14 +46,14 @@
   # last prompt line gets hidden if it would overlap with left prompt.
   typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
     # =========================[ Line #1 ]=========================
-    #status                  # exit code of the last command
+    status                  # exit code of the last command
     #command_execution_time  # duration of the last command
     #background_jobs         # presence of background jobs
-    #direnv                  # direnv status (https://direnv.net/)
+    direnv                  # direnv status (https://direnv.net/)
     #asdf                    # asdf version manager (https://github.com/asdf-vm/asdf)
-    #virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html)
+    virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html)
     #anaconda                # conda environment (https://conda.io/)
-    #pyenv                   # python environment (https://github.com/pyenv/pyenv)
+    pyenv                   # python environment (https://github.com/pyenv/pyenv)
     #goenv                   # go environment (https://github.com/syndbg/goenv)
     #nodenv                  # node.js version from nodenv (https://github.com/nodenv/nodenv)
     #nvm                     # node.js version from nvm (https://github.com/nvm-sh/nvm)
@@ -86,7 +87,7 @@
     #toolbox                 # toolbox name (https://github.com/containers/toolbox)
     #context                 # user@hostname
     #nordvpn                 # nordvpn connection status, linux only (https://nordvpn.com/)
-    #ranger                  # ranger shell (https://github.com/ranger/ranger)
+    ranger                  # ranger shell (https://github.com/ranger/ranger)
     #nnn                     # nnn shell (https://github.com/jarun/nnn)
     #lf                      # lf shell (https://github.com/gokcehan/lf)
     #xplr                    # xplr shell (https://github.com/sayanarijit/xplr)
