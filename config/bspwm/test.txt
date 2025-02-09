@@ -1,3 +1,0 @@
-volver y sustituir cualquier otro gestor
-
-sudo systemctl enable lightdm.service -f
