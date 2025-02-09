@@ -25,14 +25,12 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  true;
-    width:                       1366px;
-    height:                      768px;
     x-offset:                    0px;
     y-offset:                    0px;
 
     enabled:                     true;
     margin:                      0px;
-    padding:                     0px;
+    padding:                     1em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
@@ -45,7 +43,7 @@ mainbox {
     enabled:                     true;
     spacing:                     100px;
     margin:                      0px;
-    padding:                     100px 225px;
+    padding:                     8px 200px;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @selected;
@@ -56,11 +54,11 @@ mainbox {
 /*****----- Inputbar -----*****/
 inputbar {
     enabled:                     true;
-    spacing:                     10px;
-    margin:                      0% 28%;
-    padding:                     10px;
+    spacing:                     30px;
+    margin:                      2% 26%;
+    padding:                     12px;
     border:                      1px solid;
-    border-radius:               6px;
+    border-radius:               12px;
     border-color:                white / 25%;
     background-color:            white / 5%;
     text-color:                  @foreground;
@@ -82,6 +80,7 @@ textbox-prompt-colon {
 entry {
     enabled:                     true;
     background-color:            transparent;
+    location:                    center;
     text-color:                  inherit;
     cursor:                      text;
     placeholder:                 "Search";
@@ -91,8 +90,8 @@ entry {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     7;
-    lines:                       4;
+    columns:                     6;
+    lines:                       5;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;

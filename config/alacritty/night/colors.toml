@@ -1,0 +1,27 @@
+[colors.bright]
+black = "black"
+blue = "#6791C9"
+cyan = "#67AFC1"
+green = "#78B892"
+magenta = "#BC83E3"
+red = "#DF5B61"
+white = "#D9D7D6"
+yellow = "#DE8F78"
+
+[colors.cursor]
+cursor = "#D9D7D6"
+text = "CellForeground"
+
+[colors.normal]
+black = "black"
+blue = "#6791C9"
+cyan = "#67AFC1"
+green = "#78B892"
+magenta = "#BC83E3"
+red = "#DF5B61"
+white = "#D9D7D6"
+yellow = "#DE8F78"
+
+[colors.primary]
+background = "black"
+foreground = "#D9D7D6"

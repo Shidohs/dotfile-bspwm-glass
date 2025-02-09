@@ -1,0 +1,55 @@
+#!/bin/bash
+# Usar bash en lugar de sh para mejor compatibilidad
+
+# Redirigir errores a un archivo de log
+exec 2>>"$HOME/.bspwm_errors.log"
+
+# ----- IMPORT ----- #
+# Cargar configuraciones personalizadas
+source "$HOME/.config/bspwm/modules/rules.conf"
+source "$HOME/.config/bspwm/modules/startup-programs.conf"
+
+# ----- CORRECCIÓN PARA APLICACIONES JAVA ----- #
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# ----- RECURSOS ----- #
+# Aplicar configuración de .Xresources
+xrdb merge ~/.Xresources
+export QT_QPA_PLATFORMTHEME=qt5ct
+export GTK_THEME=Sweet-Dark-v40:dark
+
+# ----- CONFIGURACIÓN DE MONITORES Y ESCRITORIOS ----- #
+# Detectar monitores conectados y configurar escritorios en cada uno
+mapfile -t monitors < <(xrandr -q | grep -w 'connected' | cut -d' ' -f1)
+for monitor in "${monitors[@]}"; do
+    bspc monitor "$monitor" -d '1' '2' '3' '4' '5' '6'
+done
+
+# ----- CONFIGURACIÓN GENERAL ----- #
+# Establecer el cursor por defecto
+xsetroot -cursor_name left_ptr
+
+# Configuración de colores y bordes de ventanas
+bspc config focused_border_color "#7899FA" # Color del borde de la ventana enfocada
+bspc config normal_border_color "#1f222b"  # Color del borde de las ventanas no enfocadas
+bspc config border_width 0                 # Ancho de borde de las ventanas
+bspc config borderless_monocle false       # Monocle sin bordes
+
+# Colores adicionales
+bspc config active_border_color "#bd93f9"   # Color del borde de la ventana activa
+bspc config presel_feedback_color "#6272a4" # Color de preselección de división
+
+# Comportamiento del ratón
+bspc config focus_follows_pointer true # Enfocar ventana al pasar el cursor
+bspc config split_ratio 0.52           # Ratio de división al dividir ventanas
+
+# ----- CONFIGURACIÓN DE GAPS ----- #
+bspc config gapless_monocle false # Mantener gaps en modo monocle
+bspc config window_gap 6          # Tamaño de los gaps entre ventanas
+
+# ----- CONFIGURACIÓN DE RATÓN Y MOVER/REDIMENSIONAR VENTANAS ----- #
+# Permitir mover y redimensionar ventanas flotantes con el ratón mientras se mantiene la tecla 'mod4'
+bspc config pointer_modifier mod4         # Tecla modificadora (mod4) para acciones del ratón
+bspc config pointer_action1 move          # Acción de mover ventana
+bspc config pointer_action2 resize_side   # Redimensionar por el lado
+bspc config pointer_action3 resize_corner # Redimensionar por la esquina

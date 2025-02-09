@@ -1,36 +1,28 @@
-# (Github Dark Colorblind) Colors for Alacritty
-
+# Configuración de colores Ayu Dark
 colors:
-  # Default colors
+  # Colores predeterminados
   primary:
-    background: '0x0d1117'
-    foreground: '0xc9d1d9'
+    background: '#0A0E14'
+    foreground: '#B3B1AD'
 
-  # Cursor colors
-  #
-  # These will only be used when the `custom_cursor_colors` field is set to `true`.
-  cursor:
-    text: '0x0d1117'
-    cursor: '0xc9d1d9'
-
-  # Normal colors
+  # Colores normales
   normal:
-    black: '0x484f58'
-    red: '0xec8e2c'
-    green: '0x58a6ff'
-    yellow: '0xd29922'
-    blue: '0x58a6ff'
-    magenta: '0xbc8cff'
-    cyan: '0x39c5cf'
-    white: '0xb1bac4'
+    black:   '#01060E'
+    red:     '#EA6C73'
+    green:   '#91B362'
+    yellow:  '#F9AF4F'
+    blue:    '#53BDFA'
+    magenta: '#FFB454'
+    cyan:    '#95E6CB'
+    white:   '#C7C7C7'
 
-  # Bright colors
+  # Colores brillantes
   bright:
-    black: '0x6e7681'
-    red: '0xfdac54'
-    green: '0x79c0ff'
-    yellow: '0xe3b341'
-    blue: '0x79c0ff'
-    magenta: '0xbc8cff'
-    cyan: '0x39c5cf'
-    white: '0xb1bac4'
+    black:   '#686868'
+    red:     '#F07178'
+    green:   '#C2D94C'
+    yellow:  '#FFB454'
+    blue:    '#59C2FF'
+    magenta: '#FFEE99'
+    cyan:    '#95E6CB'
+    white:   '#FFFFFF'

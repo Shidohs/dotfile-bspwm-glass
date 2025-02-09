@@ -1,6 +1,4 @@
-# top 1: blood_moon,campbell
-
-import = ["~/.config/alacritty/themes/campbell.toml"]
+import = ["$HOME/.config/alacritty/colors.toml"]
 live_config_reload = true
 
 [colors]
@@ -41,6 +39,8 @@ y = 0
 
 [mouse]
 hide_when_typing = true
+
+
 [scrolling]
 history = 10000
 multiplier = 3
@@ -50,15 +50,10 @@ save_to_clipboard = true
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
 [shell]
-program = "/usr/bin/zsh"
-
-
-#animation = "EaseOutExpo"
-#color = "#ffffff"
-#duration = 0.5
+program = "/usr/bin/fish"
 
 [window]
-opacity = 0.8
+opacity = 0.7
 
 [window.padding]
 x = 25
