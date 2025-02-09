@@ -42,7 +42,7 @@ otros=("picom-ftlabs-git" "zsh"
 	"blueman" "brightnessctl" "btop" "neofetch" "xclip" "curl" "python"
 	"dunst" "ffmpeg" "fzf" "glow" "gparted" "grub-customizer" "gtk" "gtk2" "gtk3"
 	"gtk4" "imagemagick" "ocs-url" "rsync")
-sistema=("exa" "jgmenu" "dmenu" "bspwm" "acpi" "acpid" "lxappearance" "polybar" "xautolock" "sddm" "sxhkd" "tree")
+sistema=("exa" "jgmenu" "dmenu" "bspwm-git" "acpi" "acpid" "lxappearance" "polybar-git" "xautolock" "sddm" "sxhkd-git" "tree")
 fonts=("candy-icons-git" "fontdownloader" "ttf-firacode" "ttf-firacode-nerd" "ttf-font-awesome" "ttf-jetbrains-mono-nerd" "ttf-nerd-fonts-symbols" "ttf-victor-mono-nerd" "ttf-material-design-iconic-font" "ttf-material-design-icons-desktop-git" "")
 
 # Función para instalar
