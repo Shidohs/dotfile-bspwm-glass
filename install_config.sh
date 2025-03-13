@@ -37,7 +37,7 @@ file=("thunar")
 web=("firefox" "google-chrome")
 game=("wine" "wine-mono" "winetricks")
 multimedia=("viewnior" "celluloid" "ristretto")
-otros=("udiskie" "feh" "rofi" "picom-ftlabs-git" "zsh"
+otros=("udiskie" "feh" "rofi" "picom-git" "zsh"
 	"font-manager" "plocate" "bat" "betterlockscreen"
 	"blueman" "brightnessctl" "btop" "neofetch" "xclip" "curl" "python"
 	"dunst" "ffmpeg" "fzf" "glow" "gparted" "grub-customizer" "gtk" "gtk2" "gtk3"
