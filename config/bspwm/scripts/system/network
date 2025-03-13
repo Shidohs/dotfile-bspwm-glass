@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Definir interfaces (usar variables readonly para mejor rendimiento)
+readonly ETHERNET_IF="enp1s0"
+readonly WIFI_IF="wlp2s0"
+
+# Función optimizada para obtener IP
+get_ip() {
+    ip -4 addr show "$1" 2>/dev/null | grep -m1 -oP '(?<=inet\s)\d+(\.\d+){3}' || echo "No conectado"
+}
+
+# Verificar ethernet primero (más rápido)
+ethernet_ip=$(get_ip "$ETHERNET_IF")
+
+if [ "$ethernet_ip" != "No conectado" ]; then
+    # Solo mostrar ícono de ethernet si está conectado
+    printf "%s\n" "%{T3}%{F#A3BE8C}󰈀%{F-}%{T-}"
+    exit 0
+fi
+
+# Solo verificar WiFi si no hay ethernet
+wifi_status=$(awk -v interface="$WIFI_IF" '
+    $1 ~ interface {
+        signal = int($3 * 100 / 70)
+        if (signal >= 80) {printf "%s", "%{T3}%{F#A3BE8C}󰤨%{F-}%{T-}"; exit}
+        else if (signal >= 60) {printf "%s", "%{T3}%{F#EBCB8B}󰤥%{F-}%{T-}"; exit}
+        else if (signal >= 40) {printf "%s", "%{T3}%{F#D08770}󰤢%{F-}%{T-}"; exit}
+        else if (signal >= 20) {printf "%s", "%{T3}%{F#BF616A}󰤟%{F-}%{T-}"; exit}
+        else {printf "%s", "%{T3}%{F#BF616A}󰤯%{F-}%{T-}"; exit}
+    }
+' /proc/net/wireless 2>/dev/null)
+
+# Si no hay señal WiFi, mostrar desconectado
+if [ -z "$wifi_status" ]; then
+    printf "%s\n" "%{T3}%{F#BF616A}󰤭%{F-}%{T-}"
+else
+    printf "%s\n" "$wifi_status"
+fi
+
+
+

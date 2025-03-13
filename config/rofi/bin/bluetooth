@@ -17,7 +17,7 @@
 #   Arch repositories: rofi, bluez-utils (contains bluetoothctl)
 
 # Import Current Theme
-BSPDIR="$HOME/.config/bspwm"
+BSPDIR="$HOME/.config"
 
 # Constants
 divider="---------"

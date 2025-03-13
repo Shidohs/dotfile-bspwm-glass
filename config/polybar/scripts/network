@@ -1,0 +1,35 @@
+#!/bin/bash
+# Módulo combinado para Polybar: muestra un único ícono según la conexión activa.
+# Prioridad: Si WiFi está conectado, muestra el ícono WiFi; si no, se muestra el ícono Ethernet (si está activo);
+# de lo contrario, se muestra un ícono que indica "sin conexión".
+
+# Definir los íconos
+WIFI_ICON="" 
+ETH_ICON=" " 
+OFF_ICON=""  
+
+# Función para verificar si una interfaz existe y está activa
+check_interface() {
+    local interface=$1
+    [ -e "/sys/class/net/$interface" ] && [ "$(cat /sys/class/net/$interface/operstate 2>/dev/null)" = "up" ]
+}
+
+# Verificar WiFi
+if command -v iwgetid >/dev/null 2>&1; then
+    if WIFI=$(iwgetid -r 2>/dev/null) && [ -n "$WIFI" ]; then
+        echo "$WIFI_ICON"
+        exit 0
+    fi
+fi
+
+# Buscar y verificar interfaces Ethernet
+for eth in $(ip -o link show | awk -F': ' '{print $2}' | grep -E '^(eth|enp)'); do
+    if check_interface "$eth"; then
+        echo "$ETH_ICON"
+        exit 0
+    fi
+done
+
+# Si ninguna interfaz está activa, mostrar el ícono de desconexión
+echo "$OFF_ICON"
+exit 0

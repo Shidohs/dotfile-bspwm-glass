@@ -3,7 +3,7 @@
 ## Derechos de autor (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ## Se permite a todos copiar y distribuir copias de este archivo bajo GNU-GPL3
 
-DIR="$HOME/.config/bspwm"
+DIR="$HOME/.config"
 
 # Captura el número de ventanas y calcula el ancho dinámicamente
 num_windows=$(wmctrl -l | wc -l)
