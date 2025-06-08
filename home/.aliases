@@ -7,6 +7,8 @@ alias hd="hexdump -C"
 alias nanosu="sudo nano"
 alias vimsu="sudo vim"
 alias nvimsu="sudo nvim"
+alias clone="git clone --depth=1"
+alias paru-clean='paru -Sc && paru -Rns $(pacman -Qdtq) && paru --clean'
 
 # System Maintenance
 alias pacrem="sudo pacman -Rcns"
@@ -29,6 +31,15 @@ alias delete="sudo pacman -Rns"
 # Shortcuts
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
+alias flutter-light='
+  export _JAVA_OPTIONS="-Xmx1024m" &&
+  export ANDROID_SDK_ROOT=$HOME/Android/Sdk &&
+  export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH &&
+  export PUB_CACHE=/tmp/.pub-cache &&
+  export PUB_ENVIRONMENT="flutter_cli:no_concurrent_workers" &&
+  echo "✅ Flutter optimizado activado: RAM limitada y procesos ajustados." &&
+  flutter "$@"'
+
 alias recursive="rsync -av --delete"
 # LS ALIASES
 alias ls='eza --icons --group-directories-first'
