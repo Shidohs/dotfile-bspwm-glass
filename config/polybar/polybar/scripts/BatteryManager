@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+# encoding:utf8
+"""Battery Manager script for polybar.
+Displays battery status, percentage, and time remaining.
+"""
+import subprocess
+import sys
+import os
+
+def get_battery_status():
+    try:
+        # Get battery status using acpi
+        acpi_output = subprocess.check_output(['acpi', '-b'], text=True).strip()
+        
+        if not acpi_output:
+            return "No battery found"
+        
+        # Parse the acpi output
+        battery_info = acpi_output.split(': ')[1].split(', ')
+        status = battery_info[0].lower()
+        percentage = int(battery_info[1].rstrip('%'))
+        
+        # Get appropriate icon based on status and percentage
+        icon = get_battery_icon(status, percentage)
+        
+        # Format the output
+        output = f"{icon} {percentage}%"
+        
+        # Add time remaining if available
+        if len(battery_info) > 2 and ('until' in battery_info[2] or 'remaining' in battery_info[2]):
+            time = battery_info[2].split()[0]
+            output += f" ({time})"
+            
+        return output
+    except Exception as e:
+        return "Battery Error"
+
+def get_battery_icon(status, percentage):
+    if status == 'charging':
+        return "⚡"
+    elif status == 'full':
+        return "🔋"
+    else:  # discharging
+        if percentage <= 10:
+            return "🪫"
+        elif percentage <= 25:
+            return "🔋"
+        elif percentage <= 50:
+            return "🔋"
+        elif percentage <= 75:
+            return "🔋"
+        else:
+            return "🔋"
+
+def main():
+    print(get_battery_status())
+
+if __name__ == '__main__':
+    main()
